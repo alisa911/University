@@ -37,6 +37,9 @@ public class GlobalSearch implements Command {
                         "from lectors " +
                         "where lower(name) like :template")
                 .setParameter("template", "%" + template + "%").list();
-        return result.toString().replaceAll("[\\[\\]]", "");
+
+        if (result.isEmpty()) {
+            return "Nothing found!";
+        } else return result.toString().replaceAll("[\\[\\]]", "");
     }
 }

@@ -40,7 +40,6 @@ public class UniversityApplication {
             } else if (text.equals("Show commands")) {
                 logger.info(getCommandsShortList());
             } else {
-
                 commandList.stream()
                         .filter(command -> command.isMatch(text))
                         .findFirst().map(command -> {
