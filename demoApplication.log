@@ -1,0 +1,982 @@
+[main] DEBUG org.jboss.logging  - Logging Provider: org.jboss.logging.Log4jLoggerProvider
+[main] DEBUG org.hibernate.type.BasicTypeRegistry  - Adding type registration boolean -> org.hibernate.type.BooleanType@646be2c3
+[main] DEBUG org.hibernate.type.BasicTypeRegistry  - Adding type registration boolean -> org.hibernate.type.BooleanType@646be2c3
+[main] DEBUG org.hibernate.type.BasicTypeRegistry  - Adding type registration java.lang.Boolean -> org.hibernate.type.BooleanType@646be2c3
+[main] DEBUG org.hibernate.type.BasicTypeRegistry  - Adding type registration numeric_boolean -> org.hibernate.type.NumericBooleanType@78a2da20
+[main] DEBUG org.hibernate.type.BasicTypeRegistry  - Adding type registration true_false -> org.hibernate.type.TrueFalseType@709ba3fb
+[main] DEBUG org.hibernate.type.BasicTypeRegistry  - Adding type registration yes_no -> org.hibernate.type.YesNoType@525b461a
+[main] DEBUG org.hibernate.type.BasicTypeRegistry  - Adding type registration byte -> org.hibernate.type.ByteType@429bd883
+[main] DEBUG org.hibernate.type.BasicTypeRegistry  - Adding type registration byte -> org.hibernate.type.ByteType@429bd883
+[main] DEBUG org.hibernate.type.BasicTypeRegistry  - Adding type registration java.lang.Byte -> org.hibernate.type.ByteType@429bd883
+[main] DEBUG org.hibernate.type.BasicTypeRegistry  - Adding type registration character -> org.hibernate.type.CharacterType@77e4c80f
+[main] DEBUG org.hibernate.type.BasicTypeRegistry  - Adding type registration char -> org.hibernate.type.CharacterType@77e4c80f
+[main] DEBUG org.hibernate.type.BasicTypeRegistry  - Adding type registration java.lang.Character -> org.hibernate.type.CharacterType@77e4c80f
+[main] DEBUG org.hibernate.type.BasicTypeRegistry  - Adding type registration short -> org.hibernate.type.ShortType@3b2c72c2
+[main] DEBUG org.hibernate.type.BasicTypeRegistry  - Adding type registration short -> org.hibernate.type.ShortType@3b2c72c2
+[main] DEBUG org.hibernate.type.BasicTypeRegistry  - Adding type registration java.lang.Short -> org.hibernate.type.ShortType@3b2c72c2
+[main] DEBUG org.hibernate.type.BasicTypeRegistry  - Adding type registration integer -> org.hibernate.type.IntegerType@51b7e5df
+[main] DEBUG org.hibernate.type.BasicTypeRegistry  - Adding type registration int -> org.hibernate.type.IntegerType@51b7e5df
+[main] DEBUG org.hibernate.type.BasicTypeRegistry  - Adding type registration java.lang.Integer -> org.hibernate.type.IntegerType@51b7e5df
+[main] DEBUG org.hibernate.type.BasicTypeRegistry  - Adding type registration long -> org.hibernate.type.LongType@1a052a00
+[main] DEBUG org.hibernate.type.BasicTypeRegistry  - Adding type registration long -> org.hibernate.type.LongType@1a052a00
+[main] DEBUG org.hibernate.type.BasicTypeRegistry  - Adding type registration java.lang.Long -> org.hibernate.type.LongType@1a052a00
+[main] DEBUG org.hibernate.type.BasicTypeRegistry  - Adding type registration float -> org.hibernate.type.FloatType@8b96fde
+[main] DEBUG org.hibernate.type.BasicTypeRegistry  - Adding type registration float -> org.hibernate.type.FloatType@8b96fde
+[main] DEBUG org.hibernate.type.BasicTypeRegistry  - Adding type registration java.lang.Float -> org.hibernate.type.FloatType@8b96fde
+[main] DEBUG org.hibernate.type.BasicTypeRegistry  - Adding type registration double -> org.hibernate.type.DoubleType@6ee12bac
+[main] DEBUG org.hibernate.type.BasicTypeRegistry  - Adding type registration double -> org.hibernate.type.DoubleType@6ee12bac
+[main] DEBUG org.hibernate.type.BasicTypeRegistry  - Adding type registration java.lang.Double -> org.hibernate.type.DoubleType@6ee12bac
+[main] DEBUG org.hibernate.type.BasicTypeRegistry  - Adding type registration big_decimal -> org.hibernate.type.BigDecimalType@29f69090
+[main] DEBUG org.hibernate.type.BasicTypeRegistry  - Adding type registration java.math.BigDecimal -> org.hibernate.type.BigDecimalType@29f69090
+[main] DEBUG org.hibernate.type.BasicTypeRegistry  - Adding type registration big_integer -> org.hibernate.type.BigIntegerType@35083305
+[main] DEBUG org.hibernate.type.BasicTypeRegistry  - Adding type registration java.math.BigInteger -> org.hibernate.type.BigIntegerType@35083305
+[main] DEBUG org.hibernate.type.BasicTypeRegistry  - Adding type registration string -> org.hibernate.type.StringType@1b083826
+[main] DEBUG org.hibernate.type.BasicTypeRegistry  - Adding type registration java.lang.String -> org.hibernate.type.StringType@1b083826
+[main] DEBUG org.hibernate.type.BasicTypeRegistry  - Adding type registration nstring -> org.hibernate.type.StringNVarcharType@75c072cb
+[main] DEBUG org.hibernate.type.BasicTypeRegistry  - Adding type registration ncharacter -> org.hibernate.type.CharacterNCharType@2893de87
+[main] DEBUG org.hibernate.type.BasicTypeRegistry  - Adding type registration url -> org.hibernate.type.UrlType@212bf671
+[main] DEBUG org.hibernate.type.BasicTypeRegistry  - Adding type registration java.net.URL -> org.hibernate.type.UrlType@212bf671
+[main] DEBUG org.hibernate.type.BasicTypeRegistry  - Adding type registration date -> org.hibernate.type.DateType@17c1bced
+[main] DEBUG org.hibernate.type.BasicTypeRegistry  - Adding type registration java.sql.Date -> org.hibernate.type.DateType@17c1bced
+[main] DEBUG org.hibernate.type.BasicTypeRegistry  - Adding type registration time -> org.hibernate.type.TimeType@23282c25
+[main] DEBUG org.hibernate.type.BasicTypeRegistry  - Adding type registration java.sql.Time -> org.hibernate.type.TimeType@23282c25
+[main] DEBUG org.hibernate.type.BasicTypeRegistry  - Adding type registration timestamp -> org.hibernate.type.TimestampType@6646153
+[main] DEBUG org.hibernate.type.BasicTypeRegistry  - Adding type registration java.sql.Timestamp -> org.hibernate.type.TimestampType@6646153
+[main] DEBUG org.hibernate.type.BasicTypeRegistry  - Adding type registration java.util.Date -> org.hibernate.type.TimestampType@6646153
+[main] DEBUG org.hibernate.type.BasicTypeRegistry  - Adding type registration dbtimestamp -> org.hibernate.type.DbTimestampType@475e586c
+[main] DEBUG org.hibernate.type.BasicTypeRegistry  - Adding type registration calendar -> org.hibernate.type.CalendarType@6156496
+[main] DEBUG org.hibernate.type.BasicTypeRegistry  - Adding type registration java.util.Calendar -> org.hibernate.type.CalendarType@6156496
+[main] DEBUG org.hibernate.type.BasicTypeRegistry  - Adding type registration java.util.GregorianCalendar -> org.hibernate.type.CalendarType@6156496
+[main] DEBUG org.hibernate.type.BasicTypeRegistry  - Adding type registration calendar_date -> org.hibernate.type.CalendarDateType@37e547da
+[main] DEBUG org.hibernate.type.BasicTypeRegistry  - Adding type registration locale -> org.hibernate.type.LocaleType@327b636c
+[main] DEBUG org.hibernate.type.BasicTypeRegistry  - Adding type registration java.util.Locale -> org.hibernate.type.LocaleType@327b636c
+[main] DEBUG org.hibernate.type.BasicTypeRegistry  - Adding type registration currency -> org.hibernate.type.CurrencyType@3bd40a57
+[main] DEBUG org.hibernate.type.BasicTypeRegistry  - Adding type registration java.util.Currency -> org.hibernate.type.CurrencyType@3bd40a57
+[main] DEBUG org.hibernate.type.BasicTypeRegistry  - Adding type registration timezone -> org.hibernate.type.TimeZoneType@8909f18
+[main] DEBUG org.hibernate.type.BasicTypeRegistry  - Adding type registration java.util.TimeZone -> org.hibernate.type.TimeZoneType@8909f18
+[main] DEBUG org.hibernate.type.BasicTypeRegistry  - Adding type registration class -> org.hibernate.type.ClassType@2cbb3d47
+[main] DEBUG org.hibernate.type.BasicTypeRegistry  - Adding type registration java.lang.Class -> org.hibernate.type.ClassType@2cbb3d47
+[main] DEBUG org.hibernate.type.BasicTypeRegistry  - Adding type registration uuid-binary -> org.hibernate.type.UUIDBinaryType@6b4a4e18
+[main] DEBUG org.hibernate.type.BasicTypeRegistry  - Adding type registration java.util.UUID -> org.hibernate.type.UUIDBinaryType@6b4a4e18
+[main] DEBUG org.hibernate.type.BasicTypeRegistry  - Adding type registration uuid-char -> org.hibernate.type.UUIDCharType@79ad8b2f
+[main] DEBUG org.hibernate.type.BasicTypeRegistry  - Adding type registration pg-uuid -> org.hibernate.type.PostgresUUIDType@7995092a
+[main] DEBUG org.hibernate.type.BasicTypeRegistry  - Adding type registration binary -> org.hibernate.type.BinaryType@1e730495
+[main] DEBUG org.hibernate.type.BasicTypeRegistry  - Adding type registration byte[] -> org.hibernate.type.BinaryType@1e730495
+[main] DEBUG org.hibernate.type.BasicTypeRegistry  - Adding type registration [B -> org.hibernate.type.BinaryType@1e730495
+[main] DEBUG org.hibernate.type.BasicTypeRegistry  - Adding type registration wrapper-binary -> org.hibernate.type.WrapperBinaryType@7f1302d6
+[main] DEBUG org.hibernate.type.BasicTypeRegistry  - Adding type registration Byte[] -> org.hibernate.type.WrapperBinaryType@7f1302d6
+[main] DEBUG org.hibernate.type.BasicTypeRegistry  - Adding type registration [Ljava.lang.Byte; -> org.hibernate.type.WrapperBinaryType@7f1302d6
+[main] DEBUG org.hibernate.type.BasicTypeRegistry  - Adding type registration image -> org.hibernate.type.ImageType@5bfa9431
+[main] DEBUG org.hibernate.type.BasicTypeRegistry  - Adding type registration characters -> org.hibernate.type.CharArrayType@ec756bd
+[main] DEBUG org.hibernate.type.BasicTypeRegistry  - Adding type registration char[] -> org.hibernate.type.CharArrayType@ec756bd
+[main] DEBUG org.hibernate.type.BasicTypeRegistry  - Adding type registration [C -> org.hibernate.type.CharArrayType@ec756bd
+[main] DEBUG org.hibernate.type.BasicTypeRegistry  - Adding type registration wrapper-characters -> org.hibernate.type.CharacterArrayType@3901d134
+[main] DEBUG org.hibernate.type.BasicTypeRegistry  - Adding type registration [Ljava.lang.Character; -> org.hibernate.type.CharacterArrayType@3901d134
+[main] DEBUG org.hibernate.type.BasicTypeRegistry  - Adding type registration Character[] -> org.hibernate.type.CharacterArrayType@3901d134
+[main] DEBUG org.hibernate.type.BasicTypeRegistry  - Adding type registration text -> org.hibernate.type.TextType@65d6b83b
+[main] DEBUG org.hibernate.type.BasicTypeRegistry  - Adding type registration ntext -> org.hibernate.type.NTextType@2f177a4b
+[main] DEBUG org.hibernate.type.BasicTypeRegistry  - Adding type registration blob -> org.hibernate.type.BlobType@419c5f1a
+[main] DEBUG org.hibernate.type.BasicTypeRegistry  - Adding type registration java.sql.Blob -> org.hibernate.type.BlobType@419c5f1a
+[main] DEBUG org.hibernate.type.BasicTypeRegistry  - Adding type registration materialized_blob -> org.hibernate.type.MaterializedBlobType@71b1176b
+[main] DEBUG org.hibernate.type.BasicTypeRegistry  - Adding type registration clob -> org.hibernate.type.ClobType@59d016c9
+[main] DEBUG org.hibernate.type.BasicTypeRegistry  - Adding type registration java.sql.Clob -> org.hibernate.type.ClobType@59d016c9
+[main] DEBUG org.hibernate.type.BasicTypeRegistry  - Adding type registration nclob -> org.hibernate.type.NClobType@1b1473ab
+[main] DEBUG org.hibernate.type.BasicTypeRegistry  - Adding type registration java.sql.NClob -> org.hibernate.type.NClobType@1b1473ab
+[main] DEBUG org.hibernate.type.BasicTypeRegistry  - Adding type registration materialized_clob -> org.hibernate.type.MaterializedClobType@36c88a32
+[main] DEBUG org.hibernate.type.BasicTypeRegistry  - Adding type registration materialized_nclob -> org.hibernate.type.MaterializedNClobType@6ef888f6
+[main] DEBUG org.hibernate.type.BasicTypeRegistry  - Adding type registration serializable -> org.hibernate.type.SerializableType@6fe7aac8
+[main] DEBUG org.hibernate.type.BasicTypeRegistry  - Adding type registration object -> org.hibernate.type.ObjectType@3c419631
+[main] DEBUG org.hibernate.type.BasicTypeRegistry  - Adding type registration java.lang.Object -> org.hibernate.type.ObjectType@3c419631
+[main] DEBUG org.hibernate.type.BasicTypeRegistry  - Adding type registration imm_date -> org.hibernate.type.AdaptedImmutableType@cd3fee8
+[main] DEBUG org.hibernate.type.BasicTypeRegistry  - Adding type registration imm_time -> org.hibernate.type.AdaptedImmutableType@3e2e18f2
+[main] DEBUG org.hibernate.type.BasicTypeRegistry  - Adding type registration imm_timestamp -> org.hibernate.type.AdaptedImmutableType@470f1802
+[main] DEBUG org.hibernate.type.BasicTypeRegistry  - Adding type registration imm_dbtimestamp -> org.hibernate.type.AdaptedImmutableType@63021689
+[main] DEBUG org.hibernate.type.BasicTypeRegistry  - Adding type registration imm_calendar -> org.hibernate.type.AdaptedImmutableType@703580bf
+[main] DEBUG org.hibernate.type.BasicTypeRegistry  - Adding type registration imm_calendar_date -> org.hibernate.type.AdaptedImmutableType@3e92efc3
+[main] DEBUG org.hibernate.type.BasicTypeRegistry  - Adding type registration imm_binary -> org.hibernate.type.AdaptedImmutableType@1622f1b
+[main] DEBUG org.hibernate.type.BasicTypeRegistry  - Adding type registration imm_serializable -> org.hibernate.type.AdaptedImmutableType@72a7c7e0
+[main] INFO  org.hibernate.annotations.common.Version  - HCANN000001: Hibernate Commons Annotations {4.0.4.Final}
+[main] INFO  org.hibernate.Version  - HHH000412: Hibernate Core {4.3.5.Final}
+[main] INFO  org.hibernate.cfg.Environment  - HHH000206: hibernate.properties not found
+[main] INFO  org.hibernate.cfg.Environment  - HHH000021: Bytecode provider name : javassist
+[main] DEBUG org.hibernate.id.factory.internal.DefaultIdentifierGeneratorFactory  - Registering IdentifierGenerator strategy [uuid2] -> [org.hibernate.id.UUIDGenerator]
+[main] DEBUG org.hibernate.id.factory.internal.DefaultIdentifierGeneratorFactory  - Registering IdentifierGenerator strategy [guid] -> [org.hibernate.id.GUIDGenerator]
+[main] DEBUG org.hibernate.id.factory.internal.DefaultIdentifierGeneratorFactory  - Registering IdentifierGenerator strategy [uuid] -> [org.hibernate.id.UUIDHexGenerator]
+[main] DEBUG org.hibernate.id.factory.internal.DefaultIdentifierGeneratorFactory  - Registering IdentifierGenerator strategy [uuid.hex] -> [org.hibernate.id.UUIDHexGenerator]
+[main] DEBUG org.hibernate.id.factory.internal.DefaultIdentifierGeneratorFactory  - Registering IdentifierGenerator strategy [hilo] -> [org.hibernate.id.TableHiLoGenerator]
+[main] DEBUG org.hibernate.id.factory.internal.DefaultIdentifierGeneratorFactory  - Registering IdentifierGenerator strategy [assigned] -> [org.hibernate.id.Assigned]
+[main] DEBUG org.hibernate.id.factory.internal.DefaultIdentifierGeneratorFactory  - Registering IdentifierGenerator strategy [identity] -> [org.hibernate.id.IdentityGenerator]
+[main] DEBUG org.hibernate.id.factory.internal.DefaultIdentifierGeneratorFactory  - Registering IdentifierGenerator strategy [select] -> [org.hibernate.id.SelectGenerator]
+[main] DEBUG org.hibernate.id.factory.internal.DefaultIdentifierGeneratorFactory  - Registering IdentifierGenerator strategy [sequence] -> [org.hibernate.id.SequenceGenerator]
+[main] DEBUG org.hibernate.id.factory.internal.DefaultIdentifierGeneratorFactory  - Registering IdentifierGenerator strategy [seqhilo] -> [org.hibernate.id.SequenceHiLoGenerator]
+[main] DEBUG org.hibernate.id.factory.internal.DefaultIdentifierGeneratorFactory  - Registering IdentifierGenerator strategy [increment] -> [org.hibernate.id.IncrementGenerator]
+[main] DEBUG org.hibernate.id.factory.internal.DefaultIdentifierGeneratorFactory  - Registering IdentifierGenerator strategy [foreign] -> [org.hibernate.id.ForeignGenerator]
+[main] DEBUG org.hibernate.id.factory.internal.DefaultIdentifierGeneratorFactory  - Registering IdentifierGenerator strategy [sequence-identity] -> [org.hibernate.id.SequenceIdentityGenerator]
+[main] DEBUG org.hibernate.id.factory.internal.DefaultIdentifierGeneratorFactory  - Registering IdentifierGenerator strategy [enhanced-sequence] -> [org.hibernate.id.enhanced.SequenceStyleGenerator]
+[main] DEBUG org.hibernate.id.factory.internal.DefaultIdentifierGeneratorFactory  - Registering IdentifierGenerator strategy [enhanced-table] -> [org.hibernate.id.enhanced.TableGenerator]
+[main] INFO  org.hibernate.cfg.Configuration  - HHH000043: Configuring from resource: /hibernate.cfg.xml
+[main] INFO  org.hibernate.cfg.Configuration  - HHH000040: Configuration resource: /hibernate.cfg.xml
+[main] DEBUG org.hibernate.internal.util.xml.DTDEntityResolver  - Trying to resolve system-id [http://hibernate.sourceforge.net/hibernate-configuration-3.0.dtd]
+[main] WARN  org.hibernate.internal.util.xml.DTDEntityResolver  - HHH000223: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide!
+[main] DEBUG org.hibernate.internal.util.xml.DTDEntityResolver  - Attempting to resolve on classpath under org/hibernate/
+[main] DEBUG org.hibernate.internal.util.xml.DTDEntityResolver  - Located [http://hibernate.sourceforge.net/hibernate-configuration-3.0.dtd] in classpath
+[main] DEBUG org.hibernate.cfg.Configuration  - connection.driver_class=org.postgresql.Driver
+[main] DEBUG org.hibernate.cfg.Configuration  - connection.url=jdbc:postgresql://localhost:5432/univer
+[main] DEBUG org.hibernate.cfg.Configuration  - connection.username=plotva
+[main] DEBUG org.hibernate.cfg.Configuration  - dialect=org.hibernate.dialect.PostgreSQLDialect
+[main] DEBUG org.hibernate.cfg.Configuration  - current_session_context_class=thread
+[main] DEBUG org.hibernate.cfg.Configuration  - show_sql=false
+[main] DEBUG org.hibernate.cfg.Configuration  - format_sql=true
+[main] DEBUG org.hibernate.cfg.Configuration  - Session-factory config [null] named class [university.domain.Department] for mapping
+[main] DEBUG org.hibernate.cfg.Configuration  - Session-factory config [null] named class [university.domain.Lector] for mapping
+[main] INFO  org.hibernate.cfg.Configuration  - HHH000041: Configured SessionFactory: null
+[main] DEBUG org.hibernate.cfg.Configuration  - Properties: {awt.toolkit=sun.lwawt.macosx.LWCToolkit, hibernate.format_sql=true, java.specification.version=11, sun.cpu.isalist=, sun.jnu.encoding=UTF-8, sun.arch.data.model=64, java.vendor.url=http://java.oracle.com/, sun.boot.library.path=/Users/plotva/java programs/jdk-11.0.1.jdk/Contents/Home/lib, sun.java.command=university.UniversityApplication, jdk.debug=release, java.specification.vendor=Oracle Corporation, java.version.date=2018-10-16, java.home=/Users/plotva/java programs/jdk-11.0.1.jdk/Contents/Home, file.separator=/, java.vm.compressedOopsMode=Zero based, line.separator=
+, java.specification.name=Java Platform API Specification, java.vm.specification.vendor=Oracle Corporation, sun.management.compiler=HotSpot 64-Bit Tiered Compilers, java.runtime.version=11.0.1+13, user.name=plotva, file.encoding=UTF-8, java.vendor.version=18.9, hibernate.current_session_context_class=thread, show_sql=false, hibernate.connection.driver_class=org.postgresql.Driver, java.io.tmpdir=/var/folders/y4/x2tbm7j93wb45r2jmqynwtzr0000gp/T/, java.version=11.0.1, connection.username=plotva, java.vm.specification.name=Java Virtual Machine Specification, java.awt.printerjob=sun.lwawt.macosx.CPrinterJob, sun.os.patch.level=unknown, connection.driver_class=org.postgresql.Driver, java.library.path=/Users/plotva/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:., java.vendor=Oracle Corporation, sun.io.unicode.encoding=UnicodeBig, socksNonProxyHosts=local|*.local|169.254/16|*.169.254/16, gopherProxySet=false, dialect=org.hibernate.dialect.PostgreSQLDialect, hibernate.dialect=org.hibernate.dialect.PostgreSQLDialect, java.class.path=/Users/plotva/projects/university/target/classes:/Users/plotva/.m2/repository/javax/persistence/javax.persistence-api/2.2/javax.persistence-api-2.2.jar:/Users/plotva/.m2/repository/org/projectlombok/lombok/1.18.12/lombok-1.18.12.jar:/Users/plotva/.m2/repository/org/reflections/reflections/0.9.10/reflections-0.9.10.jar:/Users/plotva/.m2/repository/com/google/guava/guava/15.0/guava-15.0.jar:/Users/plotva/.m2/repository/org/javassist/javassist/3.19.0-GA/javassist-3.19.0-GA.jar:/Users/plotva/.m2/repository/com/google/code/findbugs/annotations/2.0.1/annotations-2.0.1.jar:/Users/plotva/.m2/repository/org/hibernate/hibernate-core/4.3.5.Final/hibernate-core-4.3.5.Final.jar:/Users/plotva/.m2/repository/org/jboss/logging/jboss-logging/3.1.3.GA/jboss-logging-3.1.3.GA.jar:/Users/plotva/.m2/repository/org/jboss/logging/jboss-logging-annotations/1.2.0.Beta1/jboss-logging-annotations-1.2.0.Beta1.jar:/Users/plotva/.m2/repository/org/jboss/spec/javax/transaction/jboss-transaction-api_1.2_spec/1.0.0.Final/jboss-transaction-api_1.2_spec-1.0.0.Final.jar:/Users/plotva/.m2/repository/dom4j/dom4j/1.6.1/dom4j-1.6.1.jar:/Users/plotva/.m2/repository/xml-apis/xml-apis/1.0.b2/xml-apis-1.0.b2.jar:/Users/plotva/.m2/repository/org/hibernate/common/hibernate-commons-annotations/4.0.4.Final/hibernate-commons-annotations-4.0.4.Final.jar:/Users/plotva/.m2/repository/org/hibernate/javax/persistence/hibernate-jpa-2.1-api/1.0.0.Final/hibernate-jpa-2.1-api-1.0.0.Final.jar:/Users/plotva/.m2/repository/antlr/antlr/2.7.7/antlr-2.7.7.jar:/Users/plotva/.m2/repository/org/jboss/jandex/1.1.0.Final/jandex-1.1.0.Final.jar:/Users/plotva/.m2/repository/postgresql/postgresql/8.4-701.jdbc4/postgresql-8.4-701.jdbc4.jar:/Users/plotva/.m2/repository/org/slf4j/slf4j-log4j12/1.6.1/slf4j-log4j12-1.6.1.jar:/Users/plotva/.m2/repository/org/slf4j/slf4j-api/1.6.1/slf4j-api-1.6.1.jar:/Users/plotva/.m2/repository/log4j/log4j/1.2.16/log4j-1.2.16.jar, java.vm.vendor=Oracle Corporation, user.timezone=, os.name=Mac OS X, java.vm.specification.version=11, current_session_context_class=thread, sun.java.launcher=SUN_STANDARD, user.country=UA, http.nonProxyHosts=local|*.local|169.254/16|*.169.254/16, sun.cpu.endian=little, user.home=/Users/plotva, user.language=ru, java.awt.graphicsenv=sun.awt.CGraphicsEnvironment, ftp.nonProxyHosts=local|*.local|169.254/16|*.169.254/16, path.separator=:, hibernate.connection.username=plotva, os.version=10.15.7, java.runtime.name=OpenJDK Runtime Environment, hibernate.connection.url=jdbc:postgresql://localhost:5432/univer, format_sql=true, java.vm.name=OpenJDK 64-Bit Server VM, hibernate.show_sql=false, java.vendor.url.bug=http://bugreport.java.com/bugreport/, user.dir=/Users/plotva/projects/university, os.arch=x86_64, java.vm.info=mixed mode, java.vm.version=11.0.1+13, hibernate.bytecode.use_reflection_optimizer=false, connection.url=jdbc:postgresql://localhost:5432/univer, java.class.version=55.0}
+[main] DEBUG org.hibernate.integrator.internal.IntegratorServiceImpl  - Adding Integrator [org.hibernate.cfg.beanvalidation.BeanValidationIntegrator].
+[main] DEBUG org.hibernate.integrator.internal.IntegratorServiceImpl  - Adding Integrator [org.hibernate.secure.spi.JaccIntegrator].
+[main] DEBUG org.hibernate.integrator.internal.IntegratorServiceImpl  - Adding Integrator [org.hibernate.cache.internal.CollectionCacheInvalidator].
+[main] DEBUG org.hibernate.boot.registry.selector.internal.StrategySelectorImpl  - Registering named strategy selector [org.hibernate.dialect.Dialect] : [MySQL5] -> [org.hibernate.dialect.MySQL5Dialect] (replacing [org.hibernate.dialect.MySQL5Dialect])
+[main] DEBUG org.hibernate.boot.registry.selector.internal.StrategySelectorImpl  - Registering named strategy selector [org.hibernate.dialect.Dialect] : [MySQL5InnoDB] -> [org.hibernate.dialect.MySQL5InnoDBDialect] (replacing [org.hibernate.dialect.MySQL5InnoDBDialect])
+[main] DEBUG org.hibernate.service.spi.ServiceBinding  - Overriding existing service binding [org.hibernate.secure.spi.JaccService]
+[main] DEBUG org.hibernate.cfg.Configuration  - Preparing to build session factory with filters : {}
+[main] WARN  org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl  - HHH000402: Using Hibernate built-in connection pool (not for production use!)
+[main] INFO  org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl  - HHH000401: using driver [org.postgresql.Driver] at URL [jdbc:postgresql://localhost:5432/univer]
+[main] INFO  org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl  - HHH000046: Connection properties: {user=plotva}
+[main] INFO  org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl  - HHH000006: Autocommit mode: false
+[main] INFO  org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl  - HHH000115: Hibernate connection pool size: 20 (min=1)
+[main] DEBUG org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl  - Initializing Connection pool with 1 Connections
+[main] DEBUG org.hibernate.engine.jdbc.internal.JdbcServicesImpl  - Database ->
+       name : PostgreSQL
+    version : 10.13
+      major : 10
+      minor : 13
+[main] DEBUG org.hibernate.engine.jdbc.internal.JdbcServicesImpl  - Driver ->
+       name : PostgreSQL Native Driver
+    version : PostgreSQL 8.4 JDBC4 (build 701)
+      major : 8
+      minor : 4
+[main] DEBUG org.hibernate.engine.jdbc.internal.JdbcServicesImpl  - JDBC version : 4.0
+[main] DEBUG org.hibernate.engine.jdbc.cursor.internal.StandardRefCursorSupport  - Unexpected error trying to gauge level of JDBC REF_CURSOR support : null
+[main] INFO  org.hibernate.dialect.Dialect  - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+[main] INFO  org.hibernate.engine.jdbc.internal.LobCreatorBuilder  - HHH000424: Disabling contextual LOB creation as createClob() method threw error : java.lang.reflect.InvocationTargetException
+[main] DEBUG org.hibernate.cfg.Configuration  - Processing hbm.xml files
+[main] DEBUG org.hibernate.cfg.Configuration  - Process annotated classes
+[main] DEBUG org.hibernate.cfg.AnnotationBinder  - Binding entity from annotated class: university.domain.Department
+[main] DEBUG org.hibernate.cfg.Ejb3Column  - Binding column: Ejb3DiscriminatorColumn{logicalColumnName'DTYPE', discriminatorTypeName='string'}
+[main] DEBUG org.hibernate.cfg.AnnotationBinder  - No value specified for 'javax.persistence.sharedCache.mode'; using UNSPECIFIED
+[main] DEBUG org.hibernate.cfg.annotations.EntityBinder  - Import with entity name Department
+[main] DEBUG org.hibernate.cfg.annotations.EntityBinder  - Bind entity university.domain.Department on table departments
+[main] DEBUG org.hibernate.cfg.Ejb3Column  - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(departments), mappingColumn=id, insertable=true, updatable=true, unique=false}
+[main] DEBUG org.hibernate.cfg.annotations.PropertyBinder  - MetadataSourceProcessor property id with lazy=false
+[main] DEBUG org.hibernate.cfg.AbstractPropertyHolder  - Attempting to locate auto-apply AttributeConverter for property [university.domain.Department:id]
+[main] DEBUG org.hibernate.cfg.annotations.SimpleValueBinder  - building SimpleValue for id
+[main] DEBUG org.hibernate.cfg.annotations.PropertyBinder  - Building property id
+[main] DEBUG org.hibernate.cfg.Ejb3Column  - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(departments), mappingColumn=head, insertable=true, updatable=true, unique=false}
+[main] DEBUG org.hibernate.cfg.annotations.PropertyBinder  - MetadataSourceProcessor property head with lazy=false
+[main] DEBUG org.hibernate.cfg.AbstractPropertyHolder  - Attempting to locate auto-apply AttributeConverter for property [university.domain.Department:head]
+[main] DEBUG org.hibernate.cfg.annotations.SimpleValueBinder  - building SimpleValue for head
+[main] DEBUG org.hibernate.cfg.annotations.PropertyBinder  - Building property head
+[main] DEBUG org.hibernate.cfg.Ejb3Column  - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(departments), mappingColumn=null, insertable=true, updatable=true, unique=false}
+[main] DEBUG org.hibernate.cfg.Ejb3Column  - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(departments), mappingColumn=element, insertable=true, updatable=true, unique=false}
+[main] DEBUG org.hibernate.cfg.Ejb3Column  - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(departments), mappingColumn=lectors_KEY, insertable=true, updatable=true, unique=false}
+[main] DEBUG org.hibernate.cfg.Ejb3Column  - Binding column: Ejb3JoinColumn{logicalColumnName='lectors_KEY', referencedColumn='null', mappedBy='null'}
+[main] DEBUG org.hibernate.cfg.Ejb3Column  - Binding column: Ejb3JoinColumn{logicalColumnName='null', referencedColumn='null', mappedBy=''}
+[main] DEBUG org.hibernate.cfg.Ejb3Column  - Binding column: Ejb3JoinColumn{logicalColumnName='null', referencedColumn='null', mappedBy=''}
+[main] DEBUG org.hibernate.cfg.annotations.CollectionBinder  - Collection role: university.domain.Department.lectors
+[main] DEBUG org.hibernate.cfg.annotations.PropertyBinder  - Building property lectors
+[main] DEBUG org.hibernate.cfg.Ejb3Column  - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(departments), mappingColumn=name, insertable=true, updatable=true, unique=false}
+[main] DEBUG org.hibernate.cfg.annotations.PropertyBinder  - MetadataSourceProcessor property name with lazy=false
+[main] DEBUG org.hibernate.cfg.AbstractPropertyHolder  - Attempting to locate auto-apply AttributeConverter for property [university.domain.Department:name]
+[main] DEBUG org.hibernate.cfg.annotations.SimpleValueBinder  - building SimpleValue for name
+[main] DEBUG org.hibernate.cfg.annotations.PropertyBinder  - Building property name
+[main] DEBUG org.hibernate.cfg.AnnotationBinder  - Binding entity from annotated class: university.domain.Lector
+[main] DEBUG org.hibernate.cfg.Ejb3Column  - Binding column: Ejb3DiscriminatorColumn{logicalColumnName'DTYPE', discriminatorTypeName='string'}
+[main] DEBUG org.hibernate.cfg.AnnotationBinder  - No value specified for 'javax.persistence.sharedCache.mode'; using UNSPECIFIED
+[main] DEBUG org.hibernate.cfg.annotations.EntityBinder  - Import with entity name Lector
+[main] DEBUG org.hibernate.cfg.annotations.EntityBinder  - Bind entity university.domain.Lector on table lectors
+[main] DEBUG org.hibernate.cfg.Ejb3Column  - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(lectors), mappingColumn=id, insertable=true, updatable=true, unique=false}
+[main] DEBUG org.hibernate.cfg.annotations.PropertyBinder  - MetadataSourceProcessor property id with lazy=false
+[main] DEBUG org.hibernate.cfg.AbstractPropertyHolder  - Attempting to locate auto-apply AttributeConverter for property [university.domain.Lector:id]
+[main] DEBUG org.hibernate.cfg.annotations.SimpleValueBinder  - building SimpleValue for id
+[main] DEBUG org.hibernate.cfg.annotations.PropertyBinder  - Building property id
+[main] DEBUG org.hibernate.cfg.Ejb3Column  - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(lectors), mappingColumn=degree, insertable=true, updatable=true, unique=false}
+[main] DEBUG org.hibernate.cfg.annotations.PropertyBinder  - MetadataSourceProcessor property degree with lazy=false
+[main] DEBUG org.hibernate.cfg.AbstractPropertyHolder  - Attempting to locate auto-apply AttributeConverter for property [university.domain.Lector:degree]
+[main] DEBUG org.hibernate.cfg.annotations.SimpleValueBinder  - building SimpleValue for degree
+[main] DEBUG org.hibernate.cfg.annotations.PropertyBinder  - Building property degree
+[main] DEBUG org.hibernate.cfg.Ejb3Column  - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(lectors), mappingColumn=null, insertable=true, updatable=true, unique=false}
+[main] DEBUG org.hibernate.cfg.Ejb3Column  - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(lectors), mappingColumn=element, insertable=true, updatable=true, unique=false}
+[main] DEBUG org.hibernate.cfg.Ejb3Column  - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(lectors), mappingColumn=departments_KEY, insertable=true, updatable=true, unique=false}
+[main] DEBUG org.hibernate.cfg.Ejb3Column  - Binding column: Ejb3JoinColumn{logicalColumnName='departments_KEY', referencedColumn='null', mappedBy='null'}
+[main] DEBUG org.hibernate.cfg.Ejb3Column  - Binding column: Ejb3JoinColumn{logicalColumnName='null', referencedColumn='null', mappedBy=''}
+[main] DEBUG org.hibernate.cfg.Ejb3Column  - Binding column: Ejb3JoinColumn{logicalColumnName='null', referencedColumn='null', mappedBy=''}
+[main] DEBUG org.hibernate.cfg.annotations.CollectionBinder  - Collection role: university.domain.Lector.departments
+[main] DEBUG org.hibernate.cfg.annotations.PropertyBinder  - Building property departments
+[main] DEBUG org.hibernate.cfg.Ejb3Column  - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(lectors), mappingColumn=name, insertable=true, updatable=true, unique=false}
+[main] DEBUG org.hibernate.cfg.annotations.PropertyBinder  - MetadataSourceProcessor property name with lazy=false
+[main] DEBUG org.hibernate.cfg.AbstractPropertyHolder  - Attempting to locate auto-apply AttributeConverter for property [university.domain.Lector:name]
+[main] DEBUG org.hibernate.cfg.annotations.SimpleValueBinder  - building SimpleValue for name
+[main] DEBUG org.hibernate.cfg.annotations.PropertyBinder  - Building property name
+[main] DEBUG org.hibernate.cfg.Ejb3Column  - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(lectors), mappingColumn=salary, insertable=true, updatable=true, unique=false}
+[main] DEBUG org.hibernate.cfg.annotations.PropertyBinder  - MetadataSourceProcessor property salary with lazy=false
+[main] DEBUG org.hibernate.cfg.AbstractPropertyHolder  - Attempting to locate auto-apply AttributeConverter for property [university.domain.Lector:salary]
+[main] DEBUG org.hibernate.cfg.annotations.SimpleValueBinder  - building SimpleValue for salary
+[main] DEBUG org.hibernate.cfg.annotations.PropertyBinder  - Building property salary
+[main] DEBUG org.hibernate.cfg.annotations.SimpleValueBinder  - Starting fillSimpleValue for id
+[main] DEBUG org.hibernate.cfg.annotations.SimpleValueBinder  - Starting fillSimpleValue for head
+[main] DEBUG org.hibernate.cfg.annotations.SimpleValueBinder  - Starting fillSimpleValue for name
+[main] DEBUG org.hibernate.cfg.annotations.SimpleValueBinder  - Starting fillSimpleValue for id
+[main] DEBUG org.hibernate.cfg.annotations.SimpleValueBinder  - Starting fillSimpleValue for degree
+[main] DEBUG org.hibernate.cfg.annotations.SimpleValueBinder  - Starting fillSimpleValue for name
+[main] DEBUG org.hibernate.cfg.annotations.SimpleValueBinder  - Starting fillSimpleValue for salary
+[main] DEBUG org.hibernate.cfg.Configuration  - Processing fk mappings (*ToOne and JoinedSubclass)
+[main] DEBUG org.hibernate.cfg.Configuration  - Processing extends queue
+[main] DEBUG org.hibernate.cfg.Configuration  - Processing extends queue
+[main] DEBUG org.hibernate.cfg.Configuration  - Processing collection mappings
+[main] DEBUG org.hibernate.cfg.CollectionSecondPass  - Second pass for collection: university.domain.Lector.departments
+[main] DEBUG org.hibernate.cfg.annotations.CollectionBinder  - Binding as ManyToMany: university.domain.Lector.departments
+[main] DEBUG org.hibernate.cfg.CollectionSecondPass  - Mapped collection key: lectors_id, element: departments_id
+[main] DEBUG org.hibernate.cfg.CollectionSecondPass  - Second pass for collection: university.domain.Department.lectors
+[main] DEBUG org.hibernate.cfg.annotations.CollectionBinder  - Binding as ManyToMany: university.domain.Department.lectors
+[main] DEBUG org.hibernate.cfg.CollectionSecondPass  - Mapped collection key: departments_id, element: lectors_id
+[main] DEBUG org.hibernate.cfg.Configuration  - Processing native query and ResultSetMapping mappings
+[main] DEBUG org.hibernate.cfg.Configuration  - Processing association property references
+[main] DEBUG org.hibernate.cfg.Configuration  - Creating tables' unique integer identifiers
+[main] DEBUG org.hibernate.cfg.Configuration  - Processing foreign key constraints
+[main] DEBUG org.hibernate.cfg.Configuration  - Resolving reference to class: university.domain.Lector
+[main] DEBUG org.hibernate.cfg.Configuration  - Resolving reference to class: university.domain.Department
+[main] DEBUG org.hibernate.cfg.Configuration  - Resolving reference to class: university.domain.Department
+[main] DEBUG org.hibernate.cfg.Configuration  - Resolving reference to class: university.domain.Lector
+[main] DEBUG org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator  - No JtaPlatform was specified, checking resolver
+[main] DEBUG org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformResolverInitiator  - No JtaPlatformResolver was specified, using default [org.hibernate.engine.transaction.jta.platform.internal.StandardJtaPlatformResolver]
+[main] DEBUG org.hibernate.engine.transaction.jta.platform.internal.StandardJtaPlatformResolver  - Could not resolve JtaPlatform, using default [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[main] DEBUG org.hibernate.cfg.SettingsFactory  - Automatic flush during beforeCompletion(): disabled
+[main] DEBUG org.hibernate.cfg.SettingsFactory  - Automatic session close at end of transaction: disabled
+[main] DEBUG org.hibernate.cfg.SettingsFactory  - JDBC batch size: 15
+[main] DEBUG org.hibernate.cfg.SettingsFactory  - JDBC batch updates for versioned data: disabled
+[main] DEBUG org.hibernate.cfg.SettingsFactory  - Scrollable result sets: enabled
+[main] DEBUG org.hibernate.cfg.SettingsFactory  - Wrap result sets: disabled
+[main] DEBUG org.hibernate.cfg.SettingsFactory  - JDBC3 getGeneratedKeys(): disabled
+[main] DEBUG org.hibernate.cfg.SettingsFactory  - multi-tenancy strategy : NONE
+[main] DEBUG org.hibernate.cfg.SettingsFactory  - Connection release mode: auto
+[main] INFO  org.hibernate.engine.transaction.internal.TransactionFactoryInitiator  - HHH000399: Using default transaction strategy (direct JDBC transactions)
+[main] DEBUG org.hibernate.cfg.SettingsFactory  - Using BatchFetchStyle : LEGACY
+[main] DEBUG org.hibernate.cfg.SettingsFactory  - Default batch fetch size: 1
+[main] DEBUG org.hibernate.cfg.SettingsFactory  - Generate SQL with comments: disabled
+[main] DEBUG org.hibernate.cfg.SettingsFactory  - Order SQL updates by primary key: disabled
+[main] DEBUG org.hibernate.cfg.SettingsFactory  - Order SQL inserts for batching: disabled
+[main] DEBUG org.hibernate.cfg.SettingsFactory  - Default null ordering: none
+[main] DEBUG org.hibernate.cfg.SettingsFactory  - Query translator: org.hibernate.hql.internal.ast.ASTQueryTranslatorFactory
+[main] INFO  org.hibernate.hql.internal.ast.ASTQueryTranslatorFactory  - HHH000397: Using ASTQueryTranslatorFactory
+[main] DEBUG org.hibernate.cfg.SettingsFactory  - Query language substitutions: {}
+[main] DEBUG org.hibernate.cfg.SettingsFactory  - JPA-QL strict compliance: disabled
+[main] DEBUG org.hibernate.cfg.SettingsFactory  - Second-level cache: enabled
+[main] DEBUG org.hibernate.cfg.SettingsFactory  - Query cache: disabled
+[main] DEBUG org.hibernate.cache.internal.RegionFactoryInitiator  - Cache region factory : org.hibernate.cache.internal.NoCachingRegionFactory
+[main] DEBUG org.hibernate.cfg.SettingsFactory  - Optimize cache for minimal puts: disabled
+[main] DEBUG org.hibernate.cfg.SettingsFactory  - Structured second-level cache entries: disabled
+[main] DEBUG org.hibernate.cfg.SettingsFactory  - Second-level cache direct-reference entries: disabled
+[main] DEBUG org.hibernate.cfg.SettingsFactory  - Automatic eviction of collection cache: disabled
+[main] DEBUG org.hibernate.cfg.SettingsFactory  - Statistics: disabled
+[main] DEBUG org.hibernate.cfg.SettingsFactory  - Deleted entity synthetic identifier rollback: disabled
+[main] DEBUG org.hibernate.cfg.SettingsFactory  - Default entity-mode: pojo
+[main] DEBUG org.hibernate.cfg.SettingsFactory  - Named query checking : enabled
+[main] DEBUG org.hibernate.cfg.SettingsFactory  - Check Nullability in Core (should be disabled when Bean Validation is on): enabled
+[main] DEBUG org.hibernate.cfg.SettingsFactory  - Allow initialization of lazy state outside session : : disabled
+[main] DEBUG org.hibernate.cfg.SettingsFactory  - JTA Track by Thread: enabled
+[main] DEBUG org.hibernate.internal.SessionFactoryImpl  - Building session factory
+[main] DEBUG org.hibernate.internal.SessionFactoryImpl  - Session factory constructed with filter configurations : {}
+[main] DEBUG org.hibernate.internal.SessionFactoryImpl  - Instantiating session factory with properties: {awt.toolkit=sun.lwawt.macosx.LWCToolkit, hibernate.format_sql=true, java.specification.version=11, sun.cpu.isalist=, sun.jnu.encoding=UTF-8, sun.arch.data.model=64, java.vendor.url=http://java.oracle.com/, sun.boot.library.path=/Users/plotva/java programs/jdk-11.0.1.jdk/Contents/Home/lib, sun.java.command=university.UniversityApplication, jdk.debug=release, java.specification.vendor=Oracle Corporation, java.version.date=2018-10-16, java.home=/Users/plotva/java programs/jdk-11.0.1.jdk/Contents/Home, file.separator=/, java.vm.compressedOopsMode=Zero based, line.separator=
+, java.specification.name=Java Platform API Specification, java.vm.specification.vendor=Oracle Corporation, sun.management.compiler=HotSpot 64-Bit Tiered Compilers, java.runtime.version=11.0.1+13, user.name=plotva, file.encoding=UTF-8, java.vendor.version=18.9, hibernate.current_session_context_class=thread, show_sql=false, hibernate.connection.driver_class=org.postgresql.Driver, java.io.tmpdir=/var/folders/y4/x2tbm7j93wb45r2jmqynwtzr0000gp/T/, java.version=11.0.1, connection.username=plotva, java.vm.specification.name=Java Virtual Machine Specification, java.awt.printerjob=sun.lwawt.macosx.CPrinterJob, sun.os.patch.level=unknown, connection.driver_class=org.postgresql.Driver, java.library.path=/Users/plotva/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:., java.vendor=Oracle Corporation, sun.io.unicode.encoding=UnicodeBig, socksNonProxyHosts=local|*.local|169.254/16|*.169.254/16, gopherProxySet=false, dialect=org.hibernate.dialect.PostgreSQLDialect, hibernate.dialect=org.hibernate.dialect.PostgreSQLDialect, java.class.path=/Users/plotva/projects/university/target/classes:/Users/plotva/.m2/repository/javax/persistence/javax.persistence-api/2.2/javax.persistence-api-2.2.jar:/Users/plotva/.m2/repository/org/projectlombok/lombok/1.18.12/lombok-1.18.12.jar:/Users/plotva/.m2/repository/org/reflections/reflections/0.9.10/reflections-0.9.10.jar:/Users/plotva/.m2/repository/com/google/guava/guava/15.0/guava-15.0.jar:/Users/plotva/.m2/repository/org/javassist/javassist/3.19.0-GA/javassist-3.19.0-GA.jar:/Users/plotva/.m2/repository/com/google/code/findbugs/annotations/2.0.1/annotations-2.0.1.jar:/Users/plotva/.m2/repository/org/hibernate/hibernate-core/4.3.5.Final/hibernate-core-4.3.5.Final.jar:/Users/plotva/.m2/repository/org/jboss/logging/jboss-logging/3.1.3.GA/jboss-logging-3.1.3.GA.jar:/Users/plotva/.m2/repository/org/jboss/logging/jboss-logging-annotations/1.2.0.Beta1/jboss-logging-annotations-1.2.0.Beta1.jar:/Users/plotva/.m2/repository/org/jboss/spec/javax/transaction/jboss-transaction-api_1.2_spec/1.0.0.Final/jboss-transaction-api_1.2_spec-1.0.0.Final.jar:/Users/plotva/.m2/repository/dom4j/dom4j/1.6.1/dom4j-1.6.1.jar:/Users/plotva/.m2/repository/xml-apis/xml-apis/1.0.b2/xml-apis-1.0.b2.jar:/Users/plotva/.m2/repository/org/hibernate/common/hibernate-commons-annotations/4.0.4.Final/hibernate-commons-annotations-4.0.4.Final.jar:/Users/plotva/.m2/repository/org/hibernate/javax/persistence/hibernate-jpa-2.1-api/1.0.0.Final/hibernate-jpa-2.1-api-1.0.0.Final.jar:/Users/plotva/.m2/repository/antlr/antlr/2.7.7/antlr-2.7.7.jar:/Users/plotva/.m2/repository/org/jboss/jandex/1.1.0.Final/jandex-1.1.0.Final.jar:/Users/plotva/.m2/repository/postgresql/postgresql/8.4-701.jdbc4/postgresql-8.4-701.jdbc4.jar:/Users/plotva/.m2/repository/org/slf4j/slf4j-log4j12/1.6.1/slf4j-log4j12-1.6.1.jar:/Users/plotva/.m2/repository/org/slf4j/slf4j-api/1.6.1/slf4j-api-1.6.1.jar:/Users/plotva/.m2/repository/log4j/log4j/1.2.16/log4j-1.2.16.jar, java.vm.vendor=Oracle Corporation, user.timezone=, os.name=Mac OS X, java.vm.specification.version=11, current_session_context_class=thread, sun.java.launcher=SUN_STANDARD, user.country=UA, http.nonProxyHosts=local|*.local|169.254/16|*.169.254/16, sun.cpu.endian=little, user.home=/Users/plotva, user.language=ru, java.awt.graphicsenv=sun.awt.CGraphicsEnvironment, ftp.nonProxyHosts=local|*.local|169.254/16|*.169.254/16, path.separator=:, hibernate.connection.username=plotva, os.version=10.15.7, java.runtime.name=OpenJDK Runtime Environment, hibernate.connection.url=jdbc:postgresql://localhost:5432/univer, format_sql=true, java.vm.name=OpenJDK 64-Bit Server VM, hibernate.show_sql=false, java.vendor.url.bug=http://bugreport.java.com/bugreport/, user.dir=/Users/plotva/projects/university, os.arch=x86_64, java.vm.info=mixed mode, java.vm.version=11.0.1+13, hibernate.bytecode.use_reflection_optimizer=false, connection.url=jdbc:postgresql://localhost:5432/univer, java.class.version=55.0}
+[main] DEBUG org.hibernate.secure.spi.JaccIntegrator  - Skipping JACC integration as it was not enabled
+[main] DEBUG org.hibernate.id.factory.internal.DefaultIdentifierGeneratorFactory  - Setting dialect [org.hibernate.dialect.PostgreSQLDialect]
+[main] DEBUG org.hibernate.id.factory.internal.DefaultIdentifierGeneratorFactory  - Setting dialect [org.hibernate.dialect.PostgreSQLDialect]
+[main] DEBUG org.hibernate.persister.collection.AbstractCollectionPersister  - Static SQL for collection: university.domain.Lector.departments
+[main] DEBUG org.hibernate.persister.collection.AbstractCollectionPersister  -  Row insert: insert into lectors_departments (lectors_id, departments_id) values (?, ?)
+[main] DEBUG org.hibernate.persister.collection.AbstractCollectionPersister  -  Row update: update lectors_departments set departments_id=? where lectors_id=? and departments_id=?
+[main] DEBUG org.hibernate.persister.collection.AbstractCollectionPersister  -  Row delete: delete from lectors_departments where lectors_id=? and departments_id=?
+[main] DEBUG org.hibernate.persister.collection.AbstractCollectionPersister  -  One-shot delete: delete from lectors_departments where lectors_id=?
+[main] DEBUG org.hibernate.persister.collection.AbstractCollectionPersister  - Static SQL for collection: university.domain.Department.lectors
+[main] DEBUG org.hibernate.persister.collection.AbstractCollectionPersister  -  Row insert: insert into departments_lectors (departments_id, lectors_id) values (?, ?)
+[main] DEBUG org.hibernate.persister.collection.AbstractCollectionPersister  -  Row update: update departments_lectors set lectors_id=? where departments_id=? and lectors_id=?
+[main] DEBUG org.hibernate.persister.collection.AbstractCollectionPersister  -  Row delete: delete from departments_lectors where departments_id=? and lectors_id=?
+[main] DEBUG org.hibernate.persister.collection.AbstractCollectionPersister  -  One-shot delete: delete from departments_lectors where departments_id=?
+[main] DEBUG org.hibernate.persister.entity.AbstractEntityPersister  - Static SQL for entity: university.domain.Lector
+[main] DEBUG org.hibernate.persister.entity.AbstractEntityPersister  -  Version select: select id from lectors where id =?
+[main] DEBUG org.hibernate.persister.entity.AbstractEntityPersister  -  Snapshot select: select lector_.id, lector_.degree as degree2_2_, lector_.name as name3_2_, lector_.salary as salary4_2_ from lectors lector_ where lector_.id=?
+[main] DEBUG org.hibernate.persister.entity.AbstractEntityPersister  -  Insert 0: insert into lectors (degree, name, salary, id) values (?, ?, ?, ?)
+[main] DEBUG org.hibernate.persister.entity.AbstractEntityPersister  -  Update 0: update lectors set degree=?, name=?, salary=? where id=?
+[main] DEBUG org.hibernate.persister.entity.AbstractEntityPersister  -  Delete 0: delete from lectors where id=?
+[main] DEBUG org.hibernate.persister.entity.AbstractEntityPersister  -  Identity insert: insert into lectors (degree, name, salary) values (?, ?, ?)
+[main] DEBUG org.hibernate.loader.plan.build.internal.spaces.QuerySpacesImpl  - Adding QuerySpace : uid = <gen:0> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@5f7f2382]
+[main] DEBUG org.hibernate.persister.walking.spi.MetamodelGraphWalker  - Visiting attribute path : degree
+[main] DEBUG org.hibernate.persister.walking.spi.MetamodelGraphWalker  - Visiting attribute path : departments
+[main] DEBUG org.hibernate.loader.plan.build.internal.spaces.QuerySpacesImpl  - Adding QuerySpace : uid = <gen:1> -> org.hibernate.loader.plan.build.internal.spaces.CollectionQuerySpaceImpl@4628b1d3]
+[main] DEBUG org.hibernate.loader.plan.build.internal.spaces.QuerySpacesImpl  - Adding QuerySpace : uid = <gen:2> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@5400db36]
+[main] DEBUG org.hibernate.persister.walking.spi.MetamodelGraphWalker  - Visiting attribute path : departments.head
+[main] DEBUG org.hibernate.persister.walking.spi.MetamodelGraphWalker  - Visiting attribute path : departments.lectors
+[main] DEBUG org.hibernate.loader.plan.build.internal.spaces.QuerySpacesImpl  - Adding QuerySpace : uid = <gen:3> -> org.hibernate.loader.plan.build.internal.spaces.CollectionQuerySpaceImpl@5ca17ab0]
+[main] DEBUG org.hibernate.loader.plan.build.internal.spaces.QuerySpacesImpl  - Adding QuerySpace : uid = <gen:4> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@5a62b2a4]
+[main] DEBUG org.hibernate.persister.walking.spi.MetamodelGraphWalker  - Visiting attribute path : departments.lectors.degree
+[main] DEBUG org.hibernate.persister.walking.spi.MetamodelGraphWalker  - Visiting attribute path : departments.lectors.departments
+[main] DEBUG org.hibernate.persister.walking.spi.MetamodelGraphWalker  - Property path deemed to be circular : departments.lectors.departments
+[main] DEBUG org.hibernate.persister.walking.spi.MetamodelGraphWalker  - Visiting attribute path : departments.lectors.name
+[main] DEBUG org.hibernate.persister.walking.spi.MetamodelGraphWalker  - Visiting attribute path : departments.lectors.salary
+[main] DEBUG org.hibernate.persister.walking.spi.MetamodelGraphWalker  - Visiting attribute path : departments.name
+[main] DEBUG org.hibernate.persister.walking.spi.MetamodelGraphWalker  - Visiting attribute path : name
+[main] DEBUG org.hibernate.persister.walking.spi.MetamodelGraphWalker  - Visiting attribute path : salary
+[main] DEBUG org.hibernate.loader.plan.build.internal.FetchStyleLoadPlanBuildingAssociationVisitationStrategy  - Building LoadPlan...
+[main] DEBUG org.hibernate.loader.plan.exec.internal.LoadQueryJoinAndFetchProcessor  - processing queryspace <gen:0>
+[main] DEBUG org.hibernate.loader.plan.build.spi.LoadPlanTreePrinter  - LoadPlan(entity=university.domain.Lector)
+    - Returns
+       - EntityReturnImpl(entity=university.domain.Lector, querySpaceUid=<gen:0>, path=university.domain.Lector)
+          - CollectionAttributeFetchImpl(collection=university.domain.Lector.departments, querySpaceUid=<gen:1>, path=university.domain.Lector.departments)
+             - (collection element) CollectionFetchableElementEntityGraph(entity=university.domain.Department, querySpaceUid=<gen:2>, path=university.domain.Lector.departments.<elements>)
+                - CollectionAttributeFetchImpl(collection=university.domain.Department.lectors, querySpaceUid=<gen:3>, path=university.domain.Lector.departments.<elements>.lectors)
+                   - (collection element) CollectionFetchableElementEntityGraph(entity=university.domain.Lector, querySpaceUid=<gen:4>, path=university.domain.Lector.departments.<elements>.lectors.<elements>)
+    - QuerySpaces
+       - EntityQuerySpaceImpl(uid=<gen:0>, entity=university.domain.Lector)
+          - SQL table alias mapping - lector0_
+          - alias suffix - 0_
+          - suffixed key columns - {id1_2_0_}
+          - JOIN (JoinDefinedByMetadata(departments)) : <gen:0> -> <gen:1>
+             - CollectionQuerySpaceImpl(uid=<gen:1>, collection=university.domain.Lector.departments)
+                - SQL table alias mapping - department1_
+                - alias suffix - 1_
+                - suffixed key columns - {lectors_1_2_1_}
+                - entity-element alias suffix - 2_
+                - 2_entity-element suffixed key columns - id1_0_2_
+                - JOIN (JoinDefinedByMetadata(elements)) : <gen:1> -> <gen:2>
+                   - EntityQuerySpaceImpl(uid=<gen:2>, entity=university.domain.Department)
+                      - SQL table alias mapping - department2_
+                      - alias suffix - 2_
+                      - suffixed key columns - {id1_0_2_}
+                      - JOIN (JoinDefinedByMetadata(lectors)) : <gen:2> -> <gen:3>
+                         - CollectionQuerySpaceImpl(uid=<gen:3>, collection=university.domain.Department.lectors)
+                            - SQL table alias mapping - lectors3_
+                            - alias suffix - 3_
+                            - suffixed key columns - {departme1_0_3_}
+                            - entity-element alias suffix - 4_
+                            - 4_entity-element suffixed key columns - id1_2_4_
+                            - JOIN (JoinDefinedByMetadata(elements)) : <gen:3> -> <gen:4>
+                               - EntityQuerySpaceImpl(uid=<gen:4>, entity=university.domain.Lector)
+                                  - SQL table alias mapping - lector4_
+                                  - alias suffix - 4_
+                                  - suffixed key columns - {id1_2_4_}
+
+[main] DEBUG org.hibernate.loader.entity.plan.EntityLoader  - Static select for entity university.domain.Lector [NONE]: select lector0_.id as id1_2_0_, lector0_.degree as degree2_2_0_, lector0_.name as name3_2_0_, lector0_.salary as salary4_2_0_, department1_.lectors_id as lectors_1_2_1_, department2_.id as departme2_3_1_, department2_.id as id1_0_2_, department2_.head as head2_0_2_, department2_.name as name3_0_2_, lectors3_.departments_id as departme1_0_3_, lector4_.id as lectors_2_1_3_, lector4_.id as id1_2_4_, lector4_.degree as degree2_2_4_, lector4_.name as name3_2_4_, lector4_.salary as salary4_2_4_ from lectors lector0_ left outer join lectors_departments department1_ on lector0_.id=department1_.lectors_id left outer join departments department2_ on department1_.departments_id=department2_.id left outer join departments_lectors lectors3_ on department2_.id=lectors3_.departments_id left outer join lectors lector4_ on lectors3_.lectors_id=lector4_.id where lector0_.id=?
+[main] DEBUG org.hibernate.loader.plan.build.internal.spaces.QuerySpacesImpl  - Adding QuerySpace : uid = <gen:0> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@51684e4a]
+[main] DEBUG org.hibernate.persister.walking.spi.MetamodelGraphWalker  - Visiting attribute path : degree
+[main] DEBUG org.hibernate.persister.walking.spi.MetamodelGraphWalker  - Visiting attribute path : departments
+[main] DEBUG org.hibernate.loader.plan.build.internal.spaces.QuerySpacesImpl  - Adding QuerySpace : uid = <gen:1> -> org.hibernate.loader.plan.build.internal.spaces.CollectionQuerySpaceImpl@38875e7d]
+[main] DEBUG org.hibernate.loader.plan.build.internal.spaces.QuerySpacesImpl  - Adding QuerySpace : uid = <gen:2> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@1e886a5b]
+[main] DEBUG org.hibernate.persister.walking.spi.MetamodelGraphWalker  - Visiting attribute path : departments.head
+[main] DEBUG org.hibernate.persister.walking.spi.MetamodelGraphWalker  - Visiting attribute path : departments.lectors
+[main] DEBUG org.hibernate.loader.plan.build.internal.spaces.QuerySpacesImpl  - Adding QuerySpace : uid = <gen:3> -> org.hibernate.loader.plan.build.internal.spaces.CollectionQuerySpaceImpl@6c451c9c]
+[main] DEBUG org.hibernate.loader.plan.build.internal.spaces.QuerySpacesImpl  - Adding QuerySpace : uid = <gen:4> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@31c269fd]
+[main] DEBUG org.hibernate.persister.walking.spi.MetamodelGraphWalker  - Visiting attribute path : departments.lectors.degree
+[main] DEBUG org.hibernate.persister.walking.spi.MetamodelGraphWalker  - Visiting attribute path : departments.lectors.departments
+[main] DEBUG org.hibernate.persister.walking.spi.MetamodelGraphWalker  - Property path deemed to be circular : departments.lectors.departments
+[main] DEBUG org.hibernate.persister.walking.spi.MetamodelGraphWalker  - Visiting attribute path : departments.lectors.name
+[main] DEBUG org.hibernate.persister.walking.spi.MetamodelGraphWalker  - Visiting attribute path : departments.lectors.salary
+[main] DEBUG org.hibernate.persister.walking.spi.MetamodelGraphWalker  - Visiting attribute path : departments.name
+[main] DEBUG org.hibernate.persister.walking.spi.MetamodelGraphWalker  - Visiting attribute path : name
+[main] DEBUG org.hibernate.persister.walking.spi.MetamodelGraphWalker  - Visiting attribute path : salary
+[main] DEBUG org.hibernate.loader.plan.build.internal.FetchStyleLoadPlanBuildingAssociationVisitationStrategy  - Building LoadPlan...
+[main] DEBUG org.hibernate.loader.plan.exec.internal.LoadQueryJoinAndFetchProcessor  - processing queryspace <gen:0>
+[main] DEBUG org.hibernate.loader.plan.build.spi.LoadPlanTreePrinter  - LoadPlan(entity=university.domain.Lector)
+    - Returns
+       - EntityReturnImpl(entity=university.domain.Lector, querySpaceUid=<gen:0>, path=university.domain.Lector)
+          - CollectionAttributeFetchImpl(collection=university.domain.Lector.departments, querySpaceUid=<gen:1>, path=university.domain.Lector.departments)
+             - (collection element) CollectionFetchableElementEntityGraph(entity=university.domain.Department, querySpaceUid=<gen:2>, path=university.domain.Lector.departments.<elements>)
+                - CollectionAttributeFetchImpl(collection=university.domain.Department.lectors, querySpaceUid=<gen:3>, path=university.domain.Lector.departments.<elements>.lectors)
+                   - (collection element) CollectionFetchableElementEntityGraph(entity=university.domain.Lector, querySpaceUid=<gen:4>, path=university.domain.Lector.departments.<elements>.lectors.<elements>)
+    - QuerySpaces
+       - EntityQuerySpaceImpl(uid=<gen:0>, entity=university.domain.Lector)
+          - SQL table alias mapping - lector0_
+          - alias suffix - 0_
+          - suffixed key columns - {id1_2_0_}
+          - JOIN (JoinDefinedByMetadata(departments)) : <gen:0> -> <gen:1>
+             - CollectionQuerySpaceImpl(uid=<gen:1>, collection=university.domain.Lector.departments)
+                - SQL table alias mapping - department1_
+                - alias suffix - 1_
+                - suffixed key columns - {lectors_1_2_1_}
+                - entity-element alias suffix - 2_
+                - 2_entity-element suffixed key columns - id1_0_2_
+                - JOIN (JoinDefinedByMetadata(elements)) : <gen:1> -> <gen:2>
+                   - EntityQuerySpaceImpl(uid=<gen:2>, entity=university.domain.Department)
+                      - SQL table alias mapping - department2_
+                      - alias suffix - 2_
+                      - suffixed key columns - {id1_0_2_}
+                      - JOIN (JoinDefinedByMetadata(lectors)) : <gen:2> -> <gen:3>
+                         - CollectionQuerySpaceImpl(uid=<gen:3>, collection=university.domain.Department.lectors)
+                            - SQL table alias mapping - lectors3_
+                            - alias suffix - 3_
+                            - suffixed key columns - {departme1_0_3_}
+                            - entity-element alias suffix - 4_
+                            - 4_entity-element suffixed key columns - id1_2_4_
+                            - JOIN (JoinDefinedByMetadata(elements)) : <gen:3> -> <gen:4>
+                               - EntityQuerySpaceImpl(uid=<gen:4>, entity=university.domain.Lector)
+                                  - SQL table alias mapping - lector4_
+                                  - alias suffix - 4_
+                                  - suffixed key columns - {id1_2_4_}
+
+[main] DEBUG org.hibernate.loader.entity.plan.EntityLoader  - Static select for entity university.domain.Lector [READ]: select lector0_.id as id1_2_0_, lector0_.degree as degree2_2_0_, lector0_.name as name3_2_0_, lector0_.salary as salary4_2_0_, department1_.lectors_id as lectors_1_2_1_, department2_.id as departme2_3_1_, department2_.id as id1_0_2_, department2_.head as head2_0_2_, department2_.name as name3_0_2_, lectors3_.departments_id as departme1_0_3_, lector4_.id as lectors_2_1_3_, lector4_.id as id1_2_4_, lector4_.degree as degree2_2_4_, lector4_.name as name3_2_4_, lector4_.salary as salary4_2_4_ from lectors lector0_ left outer join lectors_departments department1_ on lector0_.id=department1_.lectors_id left outer join departments department2_ on department1_.departments_id=department2_.id left outer join departments_lectors lectors3_ on department2_.id=lectors3_.departments_id left outer join lectors lector4_ on lectors3_.lectors_id=lector4_.id where lector0_.id=?
+[main] DEBUG org.hibernate.loader.plan.build.internal.spaces.QuerySpacesImpl  - Adding QuerySpace : uid = <gen:0> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@3113a37]
+[main] DEBUG org.hibernate.persister.walking.spi.MetamodelGraphWalker  - Visiting attribute path : degree
+[main] DEBUG org.hibernate.persister.walking.spi.MetamodelGraphWalker  - Visiting attribute path : departments
+[main] DEBUG org.hibernate.loader.plan.build.internal.spaces.QuerySpacesImpl  - Adding QuerySpace : uid = <gen:1> -> org.hibernate.loader.plan.build.internal.spaces.CollectionQuerySpaceImpl@4e9658b5]
+[main] DEBUG org.hibernate.loader.plan.build.internal.spaces.QuerySpacesImpl  - Adding QuerySpace : uid = <gen:2> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@2a7b6f69]
+[main] DEBUG org.hibernate.persister.walking.spi.MetamodelGraphWalker  - Visiting attribute path : name
+[main] DEBUG org.hibernate.persister.walking.spi.MetamodelGraphWalker  - Visiting attribute path : salary
+[main] DEBUG org.hibernate.loader.plan.build.internal.FetchStyleLoadPlanBuildingAssociationVisitationStrategy  - Building LoadPlan...
+[main] DEBUG org.hibernate.loader.plan.exec.internal.LoadQueryJoinAndFetchProcessor  - processing queryspace <gen:0>
+[main] DEBUG org.hibernate.loader.plan.build.spi.LoadPlanTreePrinter  - LoadPlan(entity=university.domain.Lector)
+    - Returns
+       - EntityReturnImpl(entity=university.domain.Lector, querySpaceUid=<gen:0>, path=university.domain.Lector)
+          - CollectionAttributeFetchImpl(collection=university.domain.Lector.departments, querySpaceUid=<gen:1>, path=university.domain.Lector.departments)
+             - (collection element) CollectionFetchableElementEntityGraph(entity=university.domain.Department, querySpaceUid=<gen:2>, path=university.domain.Lector.departments.<elements>)
+    - QuerySpaces
+       - EntityQuerySpaceImpl(uid=<gen:0>, entity=university.domain.Lector)
+          - SQL table alias mapping - lector0_
+          - alias suffix - 0_
+          - suffixed key columns - {id1_2_0_}
+
+[main] DEBUG org.hibernate.loader.entity.plan.EntityLoader  - Static select for entity university.domain.Lector [UPGRADE]: select lector0_.id as id1_2_0_, lector0_.degree as degree2_2_0_, lector0_.name as name3_2_0_, lector0_.salary as salary4_2_0_ from lectors lector0_ where lector0_.id=? for update
+[main] DEBUG org.hibernate.loader.plan.build.internal.spaces.QuerySpacesImpl  - Adding QuerySpace : uid = <gen:0> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@20312893]
+[main] DEBUG org.hibernate.persister.walking.spi.MetamodelGraphWalker  - Visiting attribute path : degree
+[main] DEBUG org.hibernate.persister.walking.spi.MetamodelGraphWalker  - Visiting attribute path : departments
+[main] DEBUG org.hibernate.loader.plan.build.internal.spaces.QuerySpacesImpl  - Adding QuerySpace : uid = <gen:1> -> org.hibernate.loader.plan.build.internal.spaces.CollectionQuerySpaceImpl@c41709a]
+[main] DEBUG org.hibernate.loader.plan.build.internal.spaces.QuerySpacesImpl  - Adding QuerySpace : uid = <gen:2> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@7db0565c]
+[main] DEBUG org.hibernate.persister.walking.spi.MetamodelGraphWalker  - Visiting attribute path : name
+[main] DEBUG org.hibernate.persister.walking.spi.MetamodelGraphWalker  - Visiting attribute path : salary
+[main] DEBUG org.hibernate.loader.plan.build.internal.FetchStyleLoadPlanBuildingAssociationVisitationStrategy  - Building LoadPlan...
+[main] DEBUG org.hibernate.loader.plan.exec.internal.LoadQueryJoinAndFetchProcessor  - processing queryspace <gen:0>
+[main] DEBUG org.hibernate.loader.plan.build.spi.LoadPlanTreePrinter  - LoadPlan(entity=university.domain.Lector)
+    - Returns
+       - EntityReturnImpl(entity=university.domain.Lector, querySpaceUid=<gen:0>, path=university.domain.Lector)
+          - CollectionAttributeFetchImpl(collection=university.domain.Lector.departments, querySpaceUid=<gen:1>, path=university.domain.Lector.departments)
+             - (collection element) CollectionFetchableElementEntityGraph(entity=university.domain.Department, querySpaceUid=<gen:2>, path=university.domain.Lector.departments.<elements>)
+    - QuerySpaces
+       - EntityQuerySpaceImpl(uid=<gen:0>, entity=university.domain.Lector)
+          - SQL table alias mapping - lector0_
+          - alias suffix - 0_
+          - suffixed key columns - {id1_2_0_}
+
+[main] DEBUG org.hibernate.loader.entity.plan.EntityLoader  - Static select for entity university.domain.Lector [UPGRADE_NOWAIT]: select lector0_.id as id1_2_0_, lector0_.degree as degree2_2_0_, lector0_.name as name3_2_0_, lector0_.salary as salary4_2_0_ from lectors lector0_ where lector0_.id=? for update nowait 
+[main] DEBUG org.hibernate.loader.plan.build.internal.spaces.QuerySpacesImpl  - Adding QuerySpace : uid = <gen:0> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@54ec8cc9]
+[main] DEBUG org.hibernate.persister.walking.spi.MetamodelGraphWalker  - Visiting attribute path : degree
+[main] DEBUG org.hibernate.persister.walking.spi.MetamodelGraphWalker  - Visiting attribute path : departments
+[main] DEBUG org.hibernate.loader.plan.build.internal.spaces.QuerySpacesImpl  - Adding QuerySpace : uid = <gen:1> -> org.hibernate.loader.plan.build.internal.spaces.CollectionQuerySpaceImpl@5528a42c]
+[main] DEBUG org.hibernate.loader.plan.build.internal.spaces.QuerySpacesImpl  - Adding QuerySpace : uid = <gen:2> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@2a551a63]
+[main] DEBUG org.hibernate.persister.walking.spi.MetamodelGraphWalker  - Visiting attribute path : name
+[main] DEBUG org.hibernate.persister.walking.spi.MetamodelGraphWalker  - Visiting attribute path : salary
+[main] DEBUG org.hibernate.loader.plan.build.internal.FetchStyleLoadPlanBuildingAssociationVisitationStrategy  - Building LoadPlan...
+[main] DEBUG org.hibernate.loader.plan.exec.internal.LoadQueryJoinAndFetchProcessor  - processing queryspace <gen:0>
+[main] DEBUG org.hibernate.loader.plan.build.spi.LoadPlanTreePrinter  - LoadPlan(entity=university.domain.Lector)
+    - Returns
+       - EntityReturnImpl(entity=university.domain.Lector, querySpaceUid=<gen:0>, path=university.domain.Lector)
+          - CollectionAttributeFetchImpl(collection=university.domain.Lector.departments, querySpaceUid=<gen:1>, path=university.domain.Lector.departments)
+             - (collection element) CollectionFetchableElementEntityGraph(entity=university.domain.Department, querySpaceUid=<gen:2>, path=university.domain.Lector.departments.<elements>)
+    - QuerySpaces
+       - EntityQuerySpaceImpl(uid=<gen:0>, entity=university.domain.Lector)
+          - SQL table alias mapping - lector0_
+          - alias suffix - 0_
+          - suffixed key columns - {id1_2_0_}
+
+[main] DEBUG org.hibernate.loader.entity.plan.EntityLoader  - Static select for entity university.domain.Lector [UPGRADE_SKIPLOCKED]: select lector0_.id as id1_2_0_, lector0_.degree as degree2_2_0_, lector0_.name as name3_2_0_, lector0_.salary as salary4_2_0_ from lectors lector0_ where lector0_.id=? for update
+[main] DEBUG org.hibernate.loader.plan.build.internal.spaces.QuerySpacesImpl  - Adding QuerySpace : uid = <gen:0> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@1a6f5124]
+[main] DEBUG org.hibernate.persister.walking.spi.MetamodelGraphWalker  - Visiting attribute path : degree
+[main] DEBUG org.hibernate.persister.walking.spi.MetamodelGraphWalker  - Visiting attribute path : departments
+[main] DEBUG org.hibernate.loader.plan.build.internal.spaces.QuerySpacesImpl  - Adding QuerySpace : uid = <gen:1> -> org.hibernate.loader.plan.build.internal.spaces.CollectionQuerySpaceImpl@ec2bf82]
+[main] DEBUG org.hibernate.loader.plan.build.internal.spaces.QuerySpacesImpl  - Adding QuerySpace : uid = <gen:2> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@cc62a3b]
+[main] DEBUG org.hibernate.persister.walking.spi.MetamodelGraphWalker  - Visiting attribute path : name
+[main] DEBUG org.hibernate.persister.walking.spi.MetamodelGraphWalker  - Visiting attribute path : salary
+[main] DEBUG org.hibernate.loader.plan.build.internal.FetchStyleLoadPlanBuildingAssociationVisitationStrategy  - Building LoadPlan...
+[main] DEBUG org.hibernate.loader.plan.exec.internal.LoadQueryJoinAndFetchProcessor  - processing queryspace <gen:0>
+[main] DEBUG org.hibernate.loader.plan.build.spi.LoadPlanTreePrinter  - LoadPlan(entity=university.domain.Lector)
+    - Returns
+       - EntityReturnImpl(entity=university.domain.Lector, querySpaceUid=<gen:0>, path=university.domain.Lector)
+          - CollectionAttributeFetchImpl(collection=university.domain.Lector.departments, querySpaceUid=<gen:1>, path=university.domain.Lector.departments)
+             - (collection element) CollectionFetchableElementEntityGraph(entity=university.domain.Department, querySpaceUid=<gen:2>, path=university.domain.Lector.departments.<elements>)
+    - QuerySpaces
+       - EntityQuerySpaceImpl(uid=<gen:0>, entity=university.domain.Lector)
+          - SQL table alias mapping - lector0_
+          - alias suffix - 0_
+          - suffixed key columns - {id1_2_0_}
+
+[main] DEBUG org.hibernate.loader.entity.plan.EntityLoader  - Static select for entity university.domain.Lector [FORCE]: select lector0_.id as id1_2_0_, lector0_.degree as degree2_2_0_, lector0_.name as name3_2_0_, lector0_.salary as salary4_2_0_ from lectors lector0_ where lector0_.id=? for update nowait 
+[main] DEBUG org.hibernate.loader.plan.build.internal.spaces.QuerySpacesImpl  - Adding QuerySpace : uid = <gen:0> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@6cc0bcf6]
+[main] DEBUG org.hibernate.persister.walking.spi.MetamodelGraphWalker  - Visiting attribute path : degree
+[main] DEBUG org.hibernate.persister.walking.spi.MetamodelGraphWalker  - Visiting attribute path : departments
+[main] DEBUG org.hibernate.loader.plan.build.internal.spaces.QuerySpacesImpl  - Adding QuerySpace : uid = <gen:1> -> org.hibernate.loader.plan.build.internal.spaces.CollectionQuerySpaceImpl@32f61a31]
+[main] DEBUG org.hibernate.loader.plan.build.internal.spaces.QuerySpacesImpl  - Adding QuerySpace : uid = <gen:2> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@f5c79a6]
+[main] DEBUG org.hibernate.persister.walking.spi.MetamodelGraphWalker  - Visiting attribute path : name
+[main] DEBUG org.hibernate.persister.walking.spi.MetamodelGraphWalker  - Visiting attribute path : salary
+[main] DEBUG org.hibernate.loader.plan.build.internal.FetchStyleLoadPlanBuildingAssociationVisitationStrategy  - Building LoadPlan...
+[main] DEBUG org.hibernate.loader.plan.exec.internal.LoadQueryJoinAndFetchProcessor  - processing queryspace <gen:0>
+[main] DEBUG org.hibernate.loader.plan.build.spi.LoadPlanTreePrinter  - LoadPlan(entity=university.domain.Lector)
+    - Returns
+       - EntityReturnImpl(entity=university.domain.Lector, querySpaceUid=<gen:0>, path=university.domain.Lector)
+          - CollectionAttributeFetchImpl(collection=university.domain.Lector.departments, querySpaceUid=<gen:1>, path=university.domain.Lector.departments)
+             - (collection element) CollectionFetchableElementEntityGraph(entity=university.domain.Department, querySpaceUid=<gen:2>, path=university.domain.Lector.departments.<elements>)
+    - QuerySpaces
+       - EntityQuerySpaceImpl(uid=<gen:0>, entity=university.domain.Lector)
+          - SQL table alias mapping - lector0_
+          - alias suffix - 0_
+          - suffixed key columns - {id1_2_0_}
+
+[main] DEBUG org.hibernate.loader.entity.plan.EntityLoader  - Static select for entity university.domain.Lector [PESSIMISTIC_READ]: select lector0_.id as id1_2_0_, lector0_.degree as degree2_2_0_, lector0_.name as name3_2_0_, lector0_.salary as salary4_2_0_ from lectors lector0_ where lector0_.id=? for share
+[main] DEBUG org.hibernate.loader.plan.build.internal.spaces.QuerySpacesImpl  - Adding QuerySpace : uid = <gen:0> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@669253b7]
+[main] DEBUG org.hibernate.persister.walking.spi.MetamodelGraphWalker  - Visiting attribute path : degree
+[main] DEBUG org.hibernate.persister.walking.spi.MetamodelGraphWalker  - Visiting attribute path : departments
+[main] DEBUG org.hibernate.loader.plan.build.internal.spaces.QuerySpacesImpl  - Adding QuerySpace : uid = <gen:1> -> org.hibernate.loader.plan.build.internal.spaces.CollectionQuerySpaceImpl@51a06cbe]
+[main] DEBUG org.hibernate.loader.plan.build.internal.spaces.QuerySpacesImpl  - Adding QuerySpace : uid = <gen:2> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@3dddbe65]
+[main] DEBUG org.hibernate.persister.walking.spi.MetamodelGraphWalker  - Visiting attribute path : name
+[main] DEBUG org.hibernate.persister.walking.spi.MetamodelGraphWalker  - Visiting attribute path : salary
+[main] DEBUG org.hibernate.loader.plan.build.internal.FetchStyleLoadPlanBuildingAssociationVisitationStrategy  - Building LoadPlan...
+[main] DEBUG org.hibernate.loader.plan.exec.internal.LoadQueryJoinAndFetchProcessor  - processing queryspace <gen:0>
+[main] DEBUG org.hibernate.loader.plan.build.spi.LoadPlanTreePrinter  - LoadPlan(entity=university.domain.Lector)
+    - Returns
+       - EntityReturnImpl(entity=university.domain.Lector, querySpaceUid=<gen:0>, path=university.domain.Lector)
+          - CollectionAttributeFetchImpl(collection=university.domain.Lector.departments, querySpaceUid=<gen:1>, path=university.domain.Lector.departments)
+             - (collection element) CollectionFetchableElementEntityGraph(entity=university.domain.Department, querySpaceUid=<gen:2>, path=university.domain.Lector.departments.<elements>)
+    - QuerySpaces
+       - EntityQuerySpaceImpl(uid=<gen:0>, entity=university.domain.Lector)
+          - SQL table alias mapping - lector0_
+          - alias suffix - 0_
+          - suffixed key columns - {id1_2_0_}
+
+[main] DEBUG org.hibernate.loader.entity.plan.EntityLoader  - Static select for entity university.domain.Lector [PESSIMISTIC_WRITE]: select lector0_.id as id1_2_0_, lector0_.degree as degree2_2_0_, lector0_.name as name3_2_0_, lector0_.salary as salary4_2_0_ from lectors lector0_ where lector0_.id=? for update
+[main] DEBUG org.hibernate.loader.plan.build.internal.spaces.QuerySpacesImpl  - Adding QuerySpace : uid = <gen:0> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@49a64d82]
+[main] DEBUG org.hibernate.persister.walking.spi.MetamodelGraphWalker  - Visiting attribute path : degree
+[main] DEBUG org.hibernate.persister.walking.spi.MetamodelGraphWalker  - Visiting attribute path : departments
+[main] DEBUG org.hibernate.loader.plan.build.internal.spaces.QuerySpacesImpl  - Adding QuerySpace : uid = <gen:1> -> org.hibernate.loader.plan.build.internal.spaces.CollectionQuerySpaceImpl@66d23e4a]
+[main] DEBUG org.hibernate.loader.plan.build.internal.spaces.QuerySpacesImpl  - Adding QuerySpace : uid = <gen:2> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@36ac8a63]
+[main] DEBUG org.hibernate.persister.walking.spi.MetamodelGraphWalker  - Visiting attribute path : name
+[main] DEBUG org.hibernate.persister.walking.spi.MetamodelGraphWalker  - Visiting attribute path : salary
+[main] DEBUG org.hibernate.loader.plan.build.internal.FetchStyleLoadPlanBuildingAssociationVisitationStrategy  - Building LoadPlan...
+[main] DEBUG org.hibernate.loader.plan.exec.internal.LoadQueryJoinAndFetchProcessor  - processing queryspace <gen:0>
+[main] DEBUG org.hibernate.loader.plan.build.spi.LoadPlanTreePrinter  - LoadPlan(entity=university.domain.Lector)
+    - Returns
+       - EntityReturnImpl(entity=university.domain.Lector, querySpaceUid=<gen:0>, path=university.domain.Lector)
+          - CollectionAttributeFetchImpl(collection=university.domain.Lector.departments, querySpaceUid=<gen:1>, path=university.domain.Lector.departments)
+             - (collection element) CollectionFetchableElementEntityGraph(entity=university.domain.Department, querySpaceUid=<gen:2>, path=university.domain.Lector.departments.<elements>)
+    - QuerySpaces
+       - EntityQuerySpaceImpl(uid=<gen:0>, entity=university.domain.Lector)
+          - SQL table alias mapping - lector0_
+          - alias suffix - 0_
+          - suffixed key columns - {id1_2_0_}
+
+[main] DEBUG org.hibernate.loader.entity.plan.EntityLoader  - Static select for entity university.domain.Lector [PESSIMISTIC_FORCE_INCREMENT]: select lector0_.id as id1_2_0_, lector0_.degree as degree2_2_0_, lector0_.name as name3_2_0_, lector0_.salary as salary4_2_0_ from lectors lector0_ where lector0_.id=? for update nowait 
+[main] DEBUG org.hibernate.loader.plan.build.internal.spaces.QuerySpacesImpl  - Adding QuerySpace : uid = <gen:0> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@4d9d1b69]
+[main] DEBUG org.hibernate.persister.walking.spi.MetamodelGraphWalker  - Visiting attribute path : degree
+[main] DEBUG org.hibernate.persister.walking.spi.MetamodelGraphWalker  - Visiting attribute path : departments
+[main] DEBUG org.hibernate.loader.plan.build.internal.spaces.QuerySpacesImpl  - Adding QuerySpace : uid = <gen:1> -> org.hibernate.loader.plan.build.internal.spaces.CollectionQuerySpaceImpl@251f7d26]
+[main] DEBUG org.hibernate.loader.plan.build.internal.spaces.QuerySpacesImpl  - Adding QuerySpace : uid = <gen:2> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@77b21474]
+[main] DEBUG org.hibernate.persister.walking.spi.MetamodelGraphWalker  - Visiting attribute path : name
+[main] DEBUG org.hibernate.persister.walking.spi.MetamodelGraphWalker  - Visiting attribute path : salary
+[main] DEBUG org.hibernate.loader.plan.build.internal.FetchStyleLoadPlanBuildingAssociationVisitationStrategy  - Building LoadPlan...
+[main] DEBUG org.hibernate.loader.plan.exec.internal.LoadQueryJoinAndFetchProcessor  - processing queryspace <gen:0>
+[main] DEBUG org.hibernate.loader.plan.build.spi.LoadPlanTreePrinter  - LoadPlan(entity=university.domain.Lector)
+    - Returns
+       - EntityReturnImpl(entity=university.domain.Lector, querySpaceUid=<gen:0>, path=university.domain.Lector)
+          - CollectionAttributeFetchImpl(collection=university.domain.Lector.departments, querySpaceUid=<gen:1>, path=university.domain.Lector.departments)
+             - (collection element) CollectionFetchableElementEntityGraph(entity=university.domain.Department, querySpaceUid=<gen:2>, path=university.domain.Lector.departments.<elements>)
+    - QuerySpaces
+       - EntityQuerySpaceImpl(uid=<gen:0>, entity=university.domain.Lector)
+          - SQL table alias mapping - lector0_
+          - alias suffix - 0_
+          - suffixed key columns - {id1_2_0_}
+
+[main] DEBUG org.hibernate.loader.entity.plan.EntityLoader  - Static select for entity university.domain.Lector [OPTIMISTIC]: select lector0_.id as id1_2_0_, lector0_.degree as degree2_2_0_, lector0_.name as name3_2_0_, lector0_.salary as salary4_2_0_ from lectors lector0_ where lector0_.id=?
+[main] DEBUG org.hibernate.loader.plan.build.internal.spaces.QuerySpacesImpl  - Adding QuerySpace : uid = <gen:0> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@52d10fb8]
+[main] DEBUG org.hibernate.persister.walking.spi.MetamodelGraphWalker  - Visiting attribute path : degree
+[main] DEBUG org.hibernate.persister.walking.spi.MetamodelGraphWalker  - Visiting attribute path : departments
+[main] DEBUG org.hibernate.loader.plan.build.internal.spaces.QuerySpacesImpl  - Adding QuerySpace : uid = <gen:1> -> org.hibernate.loader.plan.build.internal.spaces.CollectionQuerySpaceImpl@1fe8d51b]
+[main] DEBUG org.hibernate.loader.plan.build.internal.spaces.QuerySpacesImpl  - Adding QuerySpace : uid = <gen:2> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@781e7326]
+[main] DEBUG org.hibernate.persister.walking.spi.MetamodelGraphWalker  - Visiting attribute path : name
+[main] DEBUG org.hibernate.persister.walking.spi.MetamodelGraphWalker  - Visiting attribute path : salary
+[main] DEBUG org.hibernate.loader.plan.build.internal.FetchStyleLoadPlanBuildingAssociationVisitationStrategy  - Building LoadPlan...
+[main] DEBUG org.hibernate.loader.plan.exec.internal.LoadQueryJoinAndFetchProcessor  - processing queryspace <gen:0>
+[main] DEBUG org.hibernate.loader.plan.build.spi.LoadPlanTreePrinter  - LoadPlan(entity=university.domain.Lector)
+    - Returns
+       - EntityReturnImpl(entity=university.domain.Lector, querySpaceUid=<gen:0>, path=university.domain.Lector)
+          - CollectionAttributeFetchImpl(collection=university.domain.Lector.departments, querySpaceUid=<gen:1>, path=university.domain.Lector.departments)
+             - (collection element) CollectionFetchableElementEntityGraph(entity=university.domain.Department, querySpaceUid=<gen:2>, path=university.domain.Lector.departments.<elements>)
+    - QuerySpaces
+       - EntityQuerySpaceImpl(uid=<gen:0>, entity=university.domain.Lector)
+          - SQL table alias mapping - lector0_
+          - alias suffix - 0_
+          - suffixed key columns - {id1_2_0_}
+
+[main] DEBUG org.hibernate.loader.entity.plan.EntityLoader  - Static select for entity university.domain.Lector [OPTIMISTIC_FORCE_INCREMENT]: select lector0_.id as id1_2_0_, lector0_.degree as degree2_2_0_, lector0_.name as name3_2_0_, lector0_.salary as salary4_2_0_ from lectors lector0_ where lector0_.id=?
+[main] DEBUG org.hibernate.loader.Loader  - Static select for action ACTION_MERGE on entity university.domain.Lector: select lector0_.id as id1_2_0_, lector0_.degree as degree2_2_0_, lector0_.name as name3_2_0_, lector0_.salary as salary4_2_0_ from lectors lector0_ where lector0_.id=?
+[main] DEBUG org.hibernate.loader.Loader  - Static select for action ACTION_REFRESH on entity university.domain.Lector: select lector0_.id as id1_2_0_, lector0_.degree as degree2_2_0_, lector0_.name as name3_2_0_, lector0_.salary as salary4_2_0_ from lectors lector0_ where lector0_.id=?
+[main] DEBUG org.hibernate.persister.entity.AbstractEntityPersister  - Static SQL for entity: university.domain.Department
+[main] DEBUG org.hibernate.persister.entity.AbstractEntityPersister  -  Version select: select id from departments where id =?
+[main] DEBUG org.hibernate.persister.entity.AbstractEntityPersister  -  Snapshot select: select department_.id, department_.head as head2_0_, department_.name as name3_0_ from departments department_ where department_.id=?
+[main] DEBUG org.hibernate.persister.entity.AbstractEntityPersister  -  Insert 0: insert into departments (head, name, id) values (?, ?, ?)
+[main] DEBUG org.hibernate.persister.entity.AbstractEntityPersister  -  Update 0: update departments set head=?, name=? where id=?
+[main] DEBUG org.hibernate.persister.entity.AbstractEntityPersister  -  Delete 0: delete from departments where id=?
+[main] DEBUG org.hibernate.persister.entity.AbstractEntityPersister  -  Identity insert: insert into departments (head, name) values (?, ?)
+[main] DEBUG org.hibernate.loader.plan.build.internal.spaces.QuerySpacesImpl  - Adding QuerySpace : uid = <gen:0> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@751e664e]
+[main] DEBUG org.hibernate.persister.walking.spi.MetamodelGraphWalker  - Visiting attribute path : head
+[main] DEBUG org.hibernate.persister.walking.spi.MetamodelGraphWalker  - Visiting attribute path : lectors
+[main] DEBUG org.hibernate.loader.plan.build.internal.spaces.QuerySpacesImpl  - Adding QuerySpace : uid = <gen:1> -> org.hibernate.loader.plan.build.internal.spaces.CollectionQuerySpaceImpl@182b435b]
+[main] DEBUG org.hibernate.loader.plan.build.internal.spaces.QuerySpacesImpl  - Adding QuerySpace : uid = <gen:2> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@4d0402b]
+[main] DEBUG org.hibernate.persister.walking.spi.MetamodelGraphWalker  - Visiting attribute path : lectors.degree
+[main] DEBUG org.hibernate.persister.walking.spi.MetamodelGraphWalker  - Visiting attribute path : lectors.departments
+[main] DEBUG org.hibernate.loader.plan.build.internal.spaces.QuerySpacesImpl  - Adding QuerySpace : uid = <gen:3> -> org.hibernate.loader.plan.build.internal.spaces.CollectionQuerySpaceImpl@3704122f]
+[main] DEBUG org.hibernate.loader.plan.build.internal.spaces.QuerySpacesImpl  - Adding QuerySpace : uid = <gen:4> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@3153ddfc]
+[main] DEBUG org.hibernate.persister.walking.spi.MetamodelGraphWalker  - Visiting attribute path : lectors.departments.head
+[main] DEBUG org.hibernate.persister.walking.spi.MetamodelGraphWalker  - Visiting attribute path : lectors.departments.lectors
+[main] DEBUG org.hibernate.persister.walking.spi.MetamodelGraphWalker  - Property path deemed to be circular : lectors.departments.lectors
+[main] DEBUG org.hibernate.persister.walking.spi.MetamodelGraphWalker  - Visiting attribute path : lectors.departments.name
+[main] DEBUG org.hibernate.persister.walking.spi.MetamodelGraphWalker  - Visiting attribute path : lectors.name
+[main] DEBUG org.hibernate.persister.walking.spi.MetamodelGraphWalker  - Visiting attribute path : lectors.salary
+[main] DEBUG org.hibernate.persister.walking.spi.MetamodelGraphWalker  - Visiting attribute path : name
+[main] DEBUG org.hibernate.loader.plan.build.internal.FetchStyleLoadPlanBuildingAssociationVisitationStrategy  - Building LoadPlan...
+[main] DEBUG org.hibernate.loader.plan.exec.internal.LoadQueryJoinAndFetchProcessor  - processing queryspace <gen:0>
+[main] DEBUG org.hibernate.loader.plan.build.spi.LoadPlanTreePrinter  - LoadPlan(entity=university.domain.Department)
+    - Returns
+       - EntityReturnImpl(entity=university.domain.Department, querySpaceUid=<gen:0>, path=university.domain.Department)
+          - CollectionAttributeFetchImpl(collection=university.domain.Department.lectors, querySpaceUid=<gen:1>, path=university.domain.Department.lectors)
+             - (collection element) CollectionFetchableElementEntityGraph(entity=university.domain.Lector, querySpaceUid=<gen:2>, path=university.domain.Department.lectors.<elements>)
+                - CollectionAttributeFetchImpl(collection=university.domain.Lector.departments, querySpaceUid=<gen:3>, path=university.domain.Department.lectors.<elements>.departments)
+                   - (collection element) CollectionFetchableElementEntityGraph(entity=university.domain.Department, querySpaceUid=<gen:4>, path=university.domain.Department.lectors.<elements>.departments.<elements>)
+    - QuerySpaces
+       - EntityQuerySpaceImpl(uid=<gen:0>, entity=university.domain.Department)
+          - SQL table alias mapping - department0_
+          - alias suffix - 0_
+          - suffixed key columns - {id1_0_0_}
+          - JOIN (JoinDefinedByMetadata(lectors)) : <gen:0> -> <gen:1>
+             - CollectionQuerySpaceImpl(uid=<gen:1>, collection=university.domain.Department.lectors)
+                - SQL table alias mapping - lectors1_
+                - alias suffix - 1_
+                - suffixed key columns - {departme1_0_1_}
+                - entity-element alias suffix - 2_
+                - 2_entity-element suffixed key columns - id1_2_2_
+                - JOIN (JoinDefinedByMetadata(elements)) : <gen:1> -> <gen:2>
+                   - EntityQuerySpaceImpl(uid=<gen:2>, entity=university.domain.Lector)
+                      - SQL table alias mapping - lector2_
+                      - alias suffix - 2_
+                      - suffixed key columns - {id1_2_2_}
+                      - JOIN (JoinDefinedByMetadata(departments)) : <gen:2> -> <gen:3>
+                         - CollectionQuerySpaceImpl(uid=<gen:3>, collection=university.domain.Lector.departments)
+                            - SQL table alias mapping - department3_
+                            - alias suffix - 3_
+                            - suffixed key columns - {lectors_1_2_3_}
+                            - entity-element alias suffix - 4_
+                            - 4_entity-element suffixed key columns - id1_0_4_
+                            - JOIN (JoinDefinedByMetadata(elements)) : <gen:3> -> <gen:4>
+                               - EntityQuerySpaceImpl(uid=<gen:4>, entity=university.domain.Department)
+                                  - SQL table alias mapping - department4_
+                                  - alias suffix - 4_
+                                  - suffixed key columns - {id1_0_4_}
+
+[main] DEBUG org.hibernate.loader.entity.plan.EntityLoader  - Static select for entity university.domain.Department [NONE]: select department0_.id as id1_0_0_, department0_.head as head2_0_0_, department0_.name as name3_0_0_, lectors1_.departments_id as departme1_0_1_, lector2_.id as lectors_2_1_1_, lector2_.id as id1_2_2_, lector2_.degree as degree2_2_2_, lector2_.name as name3_2_2_, lector2_.salary as salary4_2_2_, department3_.lectors_id as lectors_1_2_3_, department4_.id as departme2_3_3_, department4_.id as id1_0_4_, department4_.head as head2_0_4_, department4_.name as name3_0_4_ from departments department0_ left outer join departments_lectors lectors1_ on department0_.id=lectors1_.departments_id left outer join lectors lector2_ on lectors1_.lectors_id=lector2_.id left outer join lectors_departments department3_ on lector2_.id=department3_.lectors_id left outer join departments department4_ on department3_.departments_id=department4_.id where department0_.id=?
+[main] DEBUG org.hibernate.loader.plan.build.internal.spaces.QuerySpacesImpl  - Adding QuerySpace : uid = <gen:0> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@3f2049b6]
+[main] DEBUG org.hibernate.persister.walking.spi.MetamodelGraphWalker  - Visiting attribute path : head
+[main] DEBUG org.hibernate.persister.walking.spi.MetamodelGraphWalker  - Visiting attribute path : lectors
+[main] DEBUG org.hibernate.loader.plan.build.internal.spaces.QuerySpacesImpl  - Adding QuerySpace : uid = <gen:1> -> org.hibernate.loader.plan.build.internal.spaces.CollectionQuerySpaceImpl@ea27e34]
+[main] DEBUG org.hibernate.loader.plan.build.internal.spaces.QuerySpacesImpl  - Adding QuerySpace : uid = <gen:2> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@33a2499c]
+[main] DEBUG org.hibernate.persister.walking.spi.MetamodelGraphWalker  - Visiting attribute path : lectors.degree
+[main] DEBUG org.hibernate.persister.walking.spi.MetamodelGraphWalker  - Visiting attribute path : lectors.departments
+[main] DEBUG org.hibernate.loader.plan.build.internal.spaces.QuerySpacesImpl  - Adding QuerySpace : uid = <gen:3> -> org.hibernate.loader.plan.build.internal.spaces.CollectionQuerySpaceImpl@1dfd5f51]
+[main] DEBUG org.hibernate.loader.plan.build.internal.spaces.QuerySpacesImpl  - Adding QuerySpace : uid = <gen:4> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@3c321bdb]
+[main] DEBUG org.hibernate.persister.walking.spi.MetamodelGraphWalker  - Visiting attribute path : lectors.departments.head
+[main] DEBUG org.hibernate.persister.walking.spi.MetamodelGraphWalker  - Visiting attribute path : lectors.departments.lectors
+[main] DEBUG org.hibernate.persister.walking.spi.MetamodelGraphWalker  - Property path deemed to be circular : lectors.departments.lectors
+[main] DEBUG org.hibernate.persister.walking.spi.MetamodelGraphWalker  - Visiting attribute path : lectors.departments.name
+[main] DEBUG org.hibernate.persister.walking.spi.MetamodelGraphWalker  - Visiting attribute path : lectors.name
+[main] DEBUG org.hibernate.persister.walking.spi.MetamodelGraphWalker  - Visiting attribute path : lectors.salary
+[main] DEBUG org.hibernate.persister.walking.spi.MetamodelGraphWalker  - Visiting attribute path : name
+[main] DEBUG org.hibernate.loader.plan.build.internal.FetchStyleLoadPlanBuildingAssociationVisitationStrategy  - Building LoadPlan...
+[main] DEBUG org.hibernate.loader.plan.exec.internal.LoadQueryJoinAndFetchProcessor  - processing queryspace <gen:0>
+[main] DEBUG org.hibernate.loader.plan.build.spi.LoadPlanTreePrinter  - LoadPlan(entity=university.domain.Department)
+    - Returns
+       - EntityReturnImpl(entity=university.domain.Department, querySpaceUid=<gen:0>, path=university.domain.Department)
+          - CollectionAttributeFetchImpl(collection=university.domain.Department.lectors, querySpaceUid=<gen:1>, path=university.domain.Department.lectors)
+             - (collection element) CollectionFetchableElementEntityGraph(entity=university.domain.Lector, querySpaceUid=<gen:2>, path=university.domain.Department.lectors.<elements>)
+                - CollectionAttributeFetchImpl(collection=university.domain.Lector.departments, querySpaceUid=<gen:3>, path=university.domain.Department.lectors.<elements>.departments)
+                   - (collection element) CollectionFetchableElementEntityGraph(entity=university.domain.Department, querySpaceUid=<gen:4>, path=university.domain.Department.lectors.<elements>.departments.<elements>)
+    - QuerySpaces
+       - EntityQuerySpaceImpl(uid=<gen:0>, entity=university.domain.Department)
+          - SQL table alias mapping - department0_
+          - alias suffix - 0_
+          - suffixed key columns - {id1_0_0_}
+          - JOIN (JoinDefinedByMetadata(lectors)) : <gen:0> -> <gen:1>
+             - CollectionQuerySpaceImpl(uid=<gen:1>, collection=university.domain.Department.lectors)
+                - SQL table alias mapping - lectors1_
+                - alias suffix - 1_
+                - suffixed key columns - {departme1_0_1_}
+                - entity-element alias suffix - 2_
+                - 2_entity-element suffixed key columns - id1_2_2_
+                - JOIN (JoinDefinedByMetadata(elements)) : <gen:1> -> <gen:2>
+                   - EntityQuerySpaceImpl(uid=<gen:2>, entity=university.domain.Lector)
+                      - SQL table alias mapping - lector2_
+                      - alias suffix - 2_
+                      - suffixed key columns - {id1_2_2_}
+                      - JOIN (JoinDefinedByMetadata(departments)) : <gen:2> -> <gen:3>
+                         - CollectionQuerySpaceImpl(uid=<gen:3>, collection=university.domain.Lector.departments)
+                            - SQL table alias mapping - department3_
+                            - alias suffix - 3_
+                            - suffixed key columns - {lectors_1_2_3_}
+                            - entity-element alias suffix - 4_
+                            - 4_entity-element suffixed key columns - id1_0_4_
+                            - JOIN (JoinDefinedByMetadata(elements)) : <gen:3> -> <gen:4>
+                               - EntityQuerySpaceImpl(uid=<gen:4>, entity=university.domain.Department)
+                                  - SQL table alias mapping - department4_
+                                  - alias suffix - 4_
+                                  - suffixed key columns - {id1_0_4_}
+
+[main] DEBUG org.hibernate.loader.entity.plan.EntityLoader  - Static select for entity university.domain.Department [READ]: select department0_.id as id1_0_0_, department0_.head as head2_0_0_, department0_.name as name3_0_0_, lectors1_.departments_id as departme1_0_1_, lector2_.id as lectors_2_1_1_, lector2_.id as id1_2_2_, lector2_.degree as degree2_2_2_, lector2_.name as name3_2_2_, lector2_.salary as salary4_2_2_, department3_.lectors_id as lectors_1_2_3_, department4_.id as departme2_3_3_, department4_.id as id1_0_4_, department4_.head as head2_0_4_, department4_.name as name3_0_4_ from departments department0_ left outer join departments_lectors lectors1_ on department0_.id=lectors1_.departments_id left outer join lectors lector2_ on lectors1_.lectors_id=lector2_.id left outer join lectors_departments department3_ on lector2_.id=department3_.lectors_id left outer join departments department4_ on department3_.departments_id=department4_.id where department0_.id=?
+[main] DEBUG org.hibernate.loader.plan.build.internal.spaces.QuerySpacesImpl  - Adding QuerySpace : uid = <gen:0> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@4d4d8fcf]
+[main] DEBUG org.hibernate.persister.walking.spi.MetamodelGraphWalker  - Visiting attribute path : head
+[main] DEBUG org.hibernate.persister.walking.spi.MetamodelGraphWalker  - Visiting attribute path : lectors
+[main] DEBUG org.hibernate.loader.plan.build.internal.spaces.QuerySpacesImpl  - Adding QuerySpace : uid = <gen:1> -> org.hibernate.loader.plan.build.internal.spaces.CollectionQuerySpaceImpl@6f0628de]
+[main] DEBUG org.hibernate.loader.plan.build.internal.spaces.QuerySpacesImpl  - Adding QuerySpace : uid = <gen:2> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@3fabf088]
+[main] DEBUG org.hibernate.persister.walking.spi.MetamodelGraphWalker  - Visiting attribute path : name
+[main] DEBUG org.hibernate.loader.plan.build.internal.FetchStyleLoadPlanBuildingAssociationVisitationStrategy  - Building LoadPlan...
+[main] DEBUG org.hibernate.loader.plan.exec.internal.LoadQueryJoinAndFetchProcessor  - processing queryspace <gen:0>
+[main] DEBUG org.hibernate.loader.plan.build.spi.LoadPlanTreePrinter  - LoadPlan(entity=university.domain.Department)
+    - Returns
+       - EntityReturnImpl(entity=university.domain.Department, querySpaceUid=<gen:0>, path=university.domain.Department)
+          - CollectionAttributeFetchImpl(collection=university.domain.Department.lectors, querySpaceUid=<gen:1>, path=university.domain.Department.lectors)
+             - (collection element) CollectionFetchableElementEntityGraph(entity=university.domain.Lector, querySpaceUid=<gen:2>, path=university.domain.Department.lectors.<elements>)
+    - QuerySpaces
+       - EntityQuerySpaceImpl(uid=<gen:0>, entity=university.domain.Department)
+          - SQL table alias mapping - department0_
+          - alias suffix - 0_
+          - suffixed key columns - {id1_0_0_}
+
+[main] DEBUG org.hibernate.loader.entity.plan.EntityLoader  - Static select for entity university.domain.Department [UPGRADE]: select department0_.id as id1_0_0_, department0_.head as head2_0_0_, department0_.name as name3_0_0_ from departments department0_ where department0_.id=? for update
+[main] DEBUG org.hibernate.loader.plan.build.internal.spaces.QuerySpacesImpl  - Adding QuerySpace : uid = <gen:0> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@1e392345]
+[main] DEBUG org.hibernate.persister.walking.spi.MetamodelGraphWalker  - Visiting attribute path : head
+[main] DEBUG org.hibernate.persister.walking.spi.MetamodelGraphWalker  - Visiting attribute path : lectors
+[main] DEBUG org.hibernate.loader.plan.build.internal.spaces.QuerySpacesImpl  - Adding QuerySpace : uid = <gen:1> -> org.hibernate.loader.plan.build.internal.spaces.CollectionQuerySpaceImpl@4ced35ed]
+[main] DEBUG org.hibernate.loader.plan.build.internal.spaces.QuerySpacesImpl  - Adding QuerySpace : uid = <gen:2> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@2c22a348]
+[main] DEBUG org.hibernate.persister.walking.spi.MetamodelGraphWalker  - Visiting attribute path : name
+[main] DEBUG org.hibernate.loader.plan.build.internal.FetchStyleLoadPlanBuildingAssociationVisitationStrategy  - Building LoadPlan...
+[main] DEBUG org.hibernate.loader.plan.exec.internal.LoadQueryJoinAndFetchProcessor  - processing queryspace <gen:0>
+[main] DEBUG org.hibernate.loader.plan.build.spi.LoadPlanTreePrinter  - LoadPlan(entity=university.domain.Department)
+    - Returns
+       - EntityReturnImpl(entity=university.domain.Department, querySpaceUid=<gen:0>, path=university.domain.Department)
+          - CollectionAttributeFetchImpl(collection=university.domain.Department.lectors, querySpaceUid=<gen:1>, path=university.domain.Department.lectors)
+             - (collection element) CollectionFetchableElementEntityGraph(entity=university.domain.Lector, querySpaceUid=<gen:2>, path=university.domain.Department.lectors.<elements>)
+    - QuerySpaces
+       - EntityQuerySpaceImpl(uid=<gen:0>, entity=university.domain.Department)
+          - SQL table alias mapping - department0_
+          - alias suffix - 0_
+          - suffixed key columns - {id1_0_0_}
+
+[main] DEBUG org.hibernate.loader.entity.plan.EntityLoader  - Static select for entity university.domain.Department [UPGRADE_NOWAIT]: select department0_.id as id1_0_0_, department0_.head as head2_0_0_, department0_.name as name3_0_0_ from departments department0_ where department0_.id=? for update nowait 
+[main] DEBUG org.hibernate.loader.plan.build.internal.spaces.QuerySpacesImpl  - Adding QuerySpace : uid = <gen:0> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@7bd69e82]
+[main] DEBUG org.hibernate.persister.walking.spi.MetamodelGraphWalker  - Visiting attribute path : head
+[main] DEBUG org.hibernate.persister.walking.spi.MetamodelGraphWalker  - Visiting attribute path : lectors
+[main] DEBUG org.hibernate.loader.plan.build.internal.spaces.QuerySpacesImpl  - Adding QuerySpace : uid = <gen:1> -> org.hibernate.loader.plan.build.internal.spaces.CollectionQuerySpaceImpl@51b01960]
+[main] DEBUG org.hibernate.loader.plan.build.internal.spaces.QuerySpacesImpl  - Adding QuerySpace : uid = <gen:2> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@6831d8fd]
+[main] DEBUG org.hibernate.persister.walking.spi.MetamodelGraphWalker  - Visiting attribute path : name
+[main] DEBUG org.hibernate.loader.plan.build.internal.FetchStyleLoadPlanBuildingAssociationVisitationStrategy  - Building LoadPlan...
+[main] DEBUG org.hibernate.loader.plan.exec.internal.LoadQueryJoinAndFetchProcessor  - processing queryspace <gen:0>
+[main] DEBUG org.hibernate.loader.plan.build.spi.LoadPlanTreePrinter  - LoadPlan(entity=university.domain.Department)
+    - Returns
+       - EntityReturnImpl(entity=university.domain.Department, querySpaceUid=<gen:0>, path=university.domain.Department)
+          - CollectionAttributeFetchImpl(collection=university.domain.Department.lectors, querySpaceUid=<gen:1>, path=university.domain.Department.lectors)
+             - (collection element) CollectionFetchableElementEntityGraph(entity=university.domain.Lector, querySpaceUid=<gen:2>, path=university.domain.Department.lectors.<elements>)
+    - QuerySpaces
+       - EntityQuerySpaceImpl(uid=<gen:0>, entity=university.domain.Department)
+          - SQL table alias mapping - department0_
+          - alias suffix - 0_
+          - suffixed key columns - {id1_0_0_}
+
+[main] DEBUG org.hibernate.loader.entity.plan.EntityLoader  - Static select for entity university.domain.Department [UPGRADE_SKIPLOCKED]: select department0_.id as id1_0_0_, department0_.head as head2_0_0_, department0_.name as name3_0_0_ from departments department0_ where department0_.id=? for update
+[main] DEBUG org.hibernate.loader.plan.build.internal.spaces.QuerySpacesImpl  - Adding QuerySpace : uid = <gen:0> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@27dc79f7]
+[main] DEBUG org.hibernate.persister.walking.spi.MetamodelGraphWalker  - Visiting attribute path : head
+[main] DEBUG org.hibernate.persister.walking.spi.MetamodelGraphWalker  - Visiting attribute path : lectors
+[main] DEBUG org.hibernate.loader.plan.build.internal.spaces.QuerySpacesImpl  - Adding QuerySpace : uid = <gen:1> -> org.hibernate.loader.plan.build.internal.spaces.CollectionQuerySpaceImpl@3aaf4f07]
+[main] DEBUG org.hibernate.loader.plan.build.internal.spaces.QuerySpacesImpl  - Adding QuerySpace : uid = <gen:2> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@5cbf9e9f]
+[main] DEBUG org.hibernate.persister.walking.spi.MetamodelGraphWalker  - Visiting attribute path : name
+[main] DEBUG org.hibernate.loader.plan.build.internal.FetchStyleLoadPlanBuildingAssociationVisitationStrategy  - Building LoadPlan...
+[main] DEBUG org.hibernate.loader.plan.exec.internal.LoadQueryJoinAndFetchProcessor  - processing queryspace <gen:0>
+[main] DEBUG org.hibernate.loader.plan.build.spi.LoadPlanTreePrinter  - LoadPlan(entity=university.domain.Department)
+    - Returns
+       - EntityReturnImpl(entity=university.domain.Department, querySpaceUid=<gen:0>, path=university.domain.Department)
+          - CollectionAttributeFetchImpl(collection=university.domain.Department.lectors, querySpaceUid=<gen:1>, path=university.domain.Department.lectors)
+             - (collection element) CollectionFetchableElementEntityGraph(entity=university.domain.Lector, querySpaceUid=<gen:2>, path=university.domain.Department.lectors.<elements>)
+    - QuerySpaces
+       - EntityQuerySpaceImpl(uid=<gen:0>, entity=university.domain.Department)
+          - SQL table alias mapping - department0_
+          - alias suffix - 0_
+          - suffixed key columns - {id1_0_0_}
+
+[main] DEBUG org.hibernate.loader.entity.plan.EntityLoader  - Static select for entity university.domain.Department [FORCE]: select department0_.id as id1_0_0_, department0_.head as head2_0_0_, department0_.name as name3_0_0_ from departments department0_ where department0_.id=? for update nowait 
+[main] DEBUG org.hibernate.loader.plan.build.internal.spaces.QuerySpacesImpl  - Adding QuerySpace : uid = <gen:0> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@18e8473e]
+[main] DEBUG org.hibernate.persister.walking.spi.MetamodelGraphWalker  - Visiting attribute path : head
+[main] DEBUG org.hibernate.persister.walking.spi.MetamodelGraphWalker  - Visiting attribute path : lectors
+[main] DEBUG org.hibernate.loader.plan.build.internal.spaces.QuerySpacesImpl  - Adding QuerySpace : uid = <gen:1> -> org.hibernate.loader.plan.build.internal.spaces.CollectionQuerySpaceImpl@1a38ba58]
+[main] DEBUG org.hibernate.loader.plan.build.internal.spaces.QuerySpacesImpl  - Adding QuerySpace : uid = <gen:2> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@3ad394e6]
+[main] DEBUG org.hibernate.persister.walking.spi.MetamodelGraphWalker  - Visiting attribute path : name
+[main] DEBUG org.hibernate.loader.plan.build.internal.FetchStyleLoadPlanBuildingAssociationVisitationStrategy  - Building LoadPlan...
+[main] DEBUG org.hibernate.loader.plan.exec.internal.LoadQueryJoinAndFetchProcessor  - processing queryspace <gen:0>
+[main] DEBUG org.hibernate.loader.plan.build.spi.LoadPlanTreePrinter  - LoadPlan(entity=university.domain.Department)
+    - Returns
+       - EntityReturnImpl(entity=university.domain.Department, querySpaceUid=<gen:0>, path=university.domain.Department)
+          - CollectionAttributeFetchImpl(collection=university.domain.Department.lectors, querySpaceUid=<gen:1>, path=university.domain.Department.lectors)
+             - (collection element) CollectionFetchableElementEntityGraph(entity=university.domain.Lector, querySpaceUid=<gen:2>, path=university.domain.Department.lectors.<elements>)
+    - QuerySpaces
+       - EntityQuerySpaceImpl(uid=<gen:0>, entity=university.domain.Department)
+          - SQL table alias mapping - department0_
+          - alias suffix - 0_
+          - suffixed key columns - {id1_0_0_}
+
+[main] DEBUG org.hibernate.loader.entity.plan.EntityLoader  - Static select for entity university.domain.Department [PESSIMISTIC_READ]: select department0_.id as id1_0_0_, department0_.head as head2_0_0_, department0_.name as name3_0_0_ from departments department0_ where department0_.id=? for share
+[main] DEBUG org.hibernate.loader.plan.build.internal.spaces.QuerySpacesImpl  - Adding QuerySpace : uid = <gen:0> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@6058e535]
+[main] DEBUG org.hibernate.persister.walking.spi.MetamodelGraphWalker  - Visiting attribute path : head
+[main] DEBUG org.hibernate.persister.walking.spi.MetamodelGraphWalker  - Visiting attribute path : lectors
+[main] DEBUG org.hibernate.loader.plan.build.internal.spaces.QuerySpacesImpl  - Adding QuerySpace : uid = <gen:1> -> org.hibernate.loader.plan.build.internal.spaces.CollectionQuerySpaceImpl@1deb2c43]
+[main] DEBUG org.hibernate.loader.plan.build.internal.spaces.QuerySpacesImpl  - Adding QuerySpace : uid = <gen:2> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@3bb9efbc]
+[main] DEBUG org.hibernate.persister.walking.spi.MetamodelGraphWalker  - Visiting attribute path : name
+[main] DEBUG org.hibernate.loader.plan.build.internal.FetchStyleLoadPlanBuildingAssociationVisitationStrategy  - Building LoadPlan...
+[main] DEBUG org.hibernate.loader.plan.exec.internal.LoadQueryJoinAndFetchProcessor  - processing queryspace <gen:0>
+[main] DEBUG org.hibernate.loader.plan.build.spi.LoadPlanTreePrinter  - LoadPlan(entity=university.domain.Department)
+    - Returns
+       - EntityReturnImpl(entity=university.domain.Department, querySpaceUid=<gen:0>, path=university.domain.Department)
+          - CollectionAttributeFetchImpl(collection=university.domain.Department.lectors, querySpaceUid=<gen:1>, path=university.domain.Department.lectors)
+             - (collection element) CollectionFetchableElementEntityGraph(entity=university.domain.Lector, querySpaceUid=<gen:2>, path=university.domain.Department.lectors.<elements>)
+    - QuerySpaces
+       - EntityQuerySpaceImpl(uid=<gen:0>, entity=university.domain.Department)
+          - SQL table alias mapping - department0_
+          - alias suffix - 0_
+          - suffixed key columns - {id1_0_0_}
+
+[main] DEBUG org.hibernate.loader.entity.plan.EntityLoader  - Static select for entity university.domain.Department [PESSIMISTIC_WRITE]: select department0_.id as id1_0_0_, department0_.head as head2_0_0_, department0_.name as name3_0_0_ from departments department0_ where department0_.id=? for update
+[main] DEBUG org.hibernate.loader.plan.build.internal.spaces.QuerySpacesImpl  - Adding QuerySpace : uid = <gen:0> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@1cefc4b3]
+[main] DEBUG org.hibernate.persister.walking.spi.MetamodelGraphWalker  - Visiting attribute path : head
+[main] DEBUG org.hibernate.persister.walking.spi.MetamodelGraphWalker  - Visiting attribute path : lectors
+[main] DEBUG org.hibernate.loader.plan.build.internal.spaces.QuerySpacesImpl  - Adding QuerySpace : uid = <gen:1> -> org.hibernate.loader.plan.build.internal.spaces.CollectionQuerySpaceImpl@6f6a7463]
+[main] DEBUG org.hibernate.loader.plan.build.internal.spaces.QuerySpacesImpl  - Adding QuerySpace : uid = <gen:2> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@1bdaa23d]
+[main] DEBUG org.hibernate.persister.walking.spi.MetamodelGraphWalker  - Visiting attribute path : name
+[main] DEBUG org.hibernate.loader.plan.build.internal.FetchStyleLoadPlanBuildingAssociationVisitationStrategy  - Building LoadPlan...
+[main] DEBUG org.hibernate.loader.plan.exec.internal.LoadQueryJoinAndFetchProcessor  - processing queryspace <gen:0>
+[main] DEBUG org.hibernate.loader.plan.build.spi.LoadPlanTreePrinter  - LoadPlan(entity=university.domain.Department)
+    - Returns
+       - EntityReturnImpl(entity=university.domain.Department, querySpaceUid=<gen:0>, path=university.domain.Department)
+          - CollectionAttributeFetchImpl(collection=university.domain.Department.lectors, querySpaceUid=<gen:1>, path=university.domain.Department.lectors)
+             - (collection element) CollectionFetchableElementEntityGraph(entity=university.domain.Lector, querySpaceUid=<gen:2>, path=university.domain.Department.lectors.<elements>)
+    - QuerySpaces
+       - EntityQuerySpaceImpl(uid=<gen:0>, entity=university.domain.Department)
+          - SQL table alias mapping - department0_
+          - alias suffix - 0_
+          - suffixed key columns - {id1_0_0_}
+
+[main] DEBUG org.hibernate.loader.entity.plan.EntityLoader  - Static select for entity university.domain.Department [PESSIMISTIC_FORCE_INCREMENT]: select department0_.id as id1_0_0_, department0_.head as head2_0_0_, department0_.name as name3_0_0_ from departments department0_ where department0_.id=? for update nowait 
+[main] DEBUG org.hibernate.loader.plan.build.internal.spaces.QuerySpacesImpl  - Adding QuerySpace : uid = <gen:0> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@79f227a9]
+[main] DEBUG org.hibernate.persister.walking.spi.MetamodelGraphWalker  - Visiting attribute path : head
+[main] DEBUG org.hibernate.persister.walking.spi.MetamodelGraphWalker  - Visiting attribute path : lectors
+[main] DEBUG org.hibernate.loader.plan.build.internal.spaces.QuerySpacesImpl  - Adding QuerySpace : uid = <gen:1> -> org.hibernate.loader.plan.build.internal.spaces.CollectionQuerySpaceImpl@50d68830]
+[main] DEBUG org.hibernate.loader.plan.build.internal.spaces.QuerySpacesImpl  - Adding QuerySpace : uid = <gen:2> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@1e53135d]
+[main] DEBUG org.hibernate.persister.walking.spi.MetamodelGraphWalker  - Visiting attribute path : name
+[main] DEBUG org.hibernate.loader.plan.build.internal.FetchStyleLoadPlanBuildingAssociationVisitationStrategy  - Building LoadPlan...
+[main] DEBUG org.hibernate.loader.plan.exec.internal.LoadQueryJoinAndFetchProcessor  - processing queryspace <gen:0>
+[main] DEBUG org.hibernate.loader.plan.build.spi.LoadPlanTreePrinter  - LoadPlan(entity=university.domain.Department)
+    - Returns
+       - EntityReturnImpl(entity=university.domain.Department, querySpaceUid=<gen:0>, path=university.domain.Department)
+          - CollectionAttributeFetchImpl(collection=university.domain.Department.lectors, querySpaceUid=<gen:1>, path=university.domain.Department.lectors)
+             - (collection element) CollectionFetchableElementEntityGraph(entity=university.domain.Lector, querySpaceUid=<gen:2>, path=university.domain.Department.lectors.<elements>)
+    - QuerySpaces
+       - EntityQuerySpaceImpl(uid=<gen:0>, entity=university.domain.Department)
+          - SQL table alias mapping - department0_
+          - alias suffix - 0_
+          - suffixed key columns - {id1_0_0_}
+
+[main] DEBUG org.hibernate.loader.entity.plan.EntityLoader  - Static select for entity university.domain.Department [OPTIMISTIC]: select department0_.id as id1_0_0_, department0_.head as head2_0_0_, department0_.name as name3_0_0_ from departments department0_ where department0_.id=?
+[main] DEBUG org.hibernate.loader.plan.build.internal.spaces.QuerySpacesImpl  - Adding QuerySpace : uid = <gen:0> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@7674a051]
+[main] DEBUG org.hibernate.persister.walking.spi.MetamodelGraphWalker  - Visiting attribute path : head
+[main] DEBUG org.hibernate.persister.walking.spi.MetamodelGraphWalker  - Visiting attribute path : lectors
+[main] DEBUG org.hibernate.loader.plan.build.internal.spaces.QuerySpacesImpl  - Adding QuerySpace : uid = <gen:1> -> org.hibernate.loader.plan.build.internal.spaces.CollectionQuerySpaceImpl@6754ef00]
+[main] DEBUG org.hibernate.loader.plan.build.internal.spaces.QuerySpacesImpl  - Adding QuerySpace : uid = <gen:2> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@619bd14c]
+[main] DEBUG org.hibernate.persister.walking.spi.MetamodelGraphWalker  - Visiting attribute path : name
+[main] DEBUG org.hibernate.loader.plan.build.internal.FetchStyleLoadPlanBuildingAssociationVisitationStrategy  - Building LoadPlan...
+[main] DEBUG org.hibernate.loader.plan.exec.internal.LoadQueryJoinAndFetchProcessor  - processing queryspace <gen:0>
+[main] DEBUG org.hibernate.loader.plan.build.spi.LoadPlanTreePrinter  - LoadPlan(entity=university.domain.Department)
+    - Returns
+       - EntityReturnImpl(entity=university.domain.Department, querySpaceUid=<gen:0>, path=university.domain.Department)
+          - CollectionAttributeFetchImpl(collection=university.domain.Department.lectors, querySpaceUid=<gen:1>, path=university.domain.Department.lectors)
+             - (collection element) CollectionFetchableElementEntityGraph(entity=university.domain.Lector, querySpaceUid=<gen:2>, path=university.domain.Department.lectors.<elements>)
+    - QuerySpaces
+       - EntityQuerySpaceImpl(uid=<gen:0>, entity=university.domain.Department)
+          - SQL table alias mapping - department0_
+          - alias suffix - 0_
+          - suffixed key columns - {id1_0_0_}
+
+[main] DEBUG org.hibernate.loader.entity.plan.EntityLoader  - Static select for entity university.domain.Department [OPTIMISTIC_FORCE_INCREMENT]: select department0_.id as id1_0_0_, department0_.head as head2_0_0_, department0_.name as name3_0_0_ from departments department0_ where department0_.id=?
+[main] DEBUG org.hibernate.loader.Loader  - Static select for action ACTION_MERGE on entity university.domain.Department: select department0_.id as id1_0_0_, department0_.head as head2_0_0_, department0_.name as name3_0_0_ from departments department0_ where department0_.id=?
+[main] DEBUG org.hibernate.loader.Loader  - Static select for action ACTION_REFRESH on entity university.domain.Department: select department0_.id as id1_0_0_, department0_.head as head2_0_0_, department0_.name as name3_0_0_ from departments department0_ where department0_.id=?
+[main] DEBUG org.hibernate.loader.plan.build.internal.spaces.QuerySpacesImpl  - Adding QuerySpace : uid = <gen:0> -> org.hibernate.loader.plan.build.internal.spaces.CollectionQuerySpaceImpl@3ef41c66]
+[main] DEBUG org.hibernate.loader.plan.build.internal.spaces.QuerySpacesImpl  - Adding QuerySpace : uid = <gen:1> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@6b739528]
+[main] DEBUG org.hibernate.persister.walking.spi.MetamodelGraphWalker  - Visiting attribute path : head
+[main] DEBUG org.hibernate.persister.walking.spi.MetamodelGraphWalker  - Visiting attribute path : lectors
+[main] DEBUG org.hibernate.loader.plan.build.internal.spaces.QuerySpacesImpl  - Adding QuerySpace : uid = <gen:2> -> org.hibernate.loader.plan.build.internal.spaces.CollectionQuerySpaceImpl@5f577419]
+[main] DEBUG org.hibernate.loader.plan.build.internal.spaces.QuerySpacesImpl  - Adding QuerySpace : uid = <gen:3> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@28fa700e]
+[main] DEBUG org.hibernate.persister.walking.spi.MetamodelGraphWalker  - Visiting attribute path : name
+[main] DEBUG org.hibernate.loader.plan.build.internal.FetchStyleLoadPlanBuildingAssociationVisitationStrategy  - Building LoadPlan...
+[main] DEBUG org.hibernate.loader.plan.exec.internal.LoadQueryJoinAndFetchProcessor  - processing queryspace <gen:0>
+[main] DEBUG org.hibernate.loader.plan.build.spi.LoadPlanTreePrinter  - LoadPlan(collection=university.domain.Lector.departments)
+    - Returns
+       - CollectionReturnImpl(collection=university.domain.Lector.departments, querySpaceUid=<gen:0>, path=[university.domain.Lector.departments])
+          - (collection element) CollectionFetchableElementEntityGraph(entity=university.domain.Department, querySpaceUid=<gen:1>, path=[university.domain.Lector.departments].<elements>)
+             - CollectionAttributeFetchImpl(collection=university.domain.Department.lectors, querySpaceUid=<gen:2>, path=[university.domain.Lector.departments].<elements>.lectors)
+                - (collection element) CollectionFetchableElementEntityGraph(entity=university.domain.Lector, querySpaceUid=<gen:3>, path=[university.domain.Lector.departments].<elements>.lectors.<elements>)
+    - QuerySpaces
+       - CollectionQuerySpaceImpl(uid=<gen:0>, collection=university.domain.Lector.departments)
+          - SQL table alias mapping - department0_
+          - alias suffix - 0_
+          - suffixed key columns - {lectors_1_2_0_}
+          - entity-element alias suffix - 1_
+          - 1_entity-element suffixed key columns - id1_0_1_
+          - JOIN (JoinDefinedByMetadata(elements)) : <gen:0> -> <gen:1>
+             - EntityQuerySpaceImpl(uid=<gen:1>, entity=university.domain.Department)
+                - SQL table alias mapping - department1_
+                - alias suffix - 1_
+                - suffixed key columns - {id1_0_1_}
+
+[main] DEBUG org.hibernate.loader.collection.plan.CollectionLoader  - Static select for collection university.domain.Lector.departments: select department0_.lectors_id as lectors_1_2_0_, department0_.departments_id as departme2_3_0_, department1_.id as id1_0_1_, department1_.head as head2_0_1_, department1_.name as name3_0_1_ from lectors_departments department0_ inner join departments department1_ on department0_.departments_id=department1_.id where department0_.lectors_id=?
+[main] DEBUG org.hibernate.loader.plan.build.internal.spaces.QuerySpacesImpl  - Adding QuerySpace : uid = <gen:0> -> org.hibernate.loader.plan.build.internal.spaces.CollectionQuerySpaceImpl@437e951d]
+[main] DEBUG org.hibernate.loader.plan.build.internal.spaces.QuerySpacesImpl  - Adding QuerySpace : uid = <gen:1> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@77b325b3]
+[main] DEBUG org.hibernate.persister.walking.spi.MetamodelGraphWalker  - Visiting attribute path : degree
+[main] DEBUG org.hibernate.persister.walking.spi.MetamodelGraphWalker  - Visiting attribute path : departments
+[main] DEBUG org.hibernate.loader.plan.build.internal.spaces.QuerySpacesImpl  - Adding QuerySpace : uid = <gen:2> -> org.hibernate.loader.plan.build.internal.spaces.CollectionQuerySpaceImpl@49ef32e0]
+[main] DEBUG org.hibernate.loader.plan.build.internal.spaces.QuerySpacesImpl  - Adding QuerySpace : uid = <gen:3> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@271f18d3]
+[main] DEBUG org.hibernate.persister.walking.spi.MetamodelGraphWalker  - Visiting attribute path : name
+[main] DEBUG org.hibernate.persister.walking.spi.MetamodelGraphWalker  - Visiting attribute path : salary
+[main] DEBUG org.hibernate.loader.plan.build.internal.FetchStyleLoadPlanBuildingAssociationVisitationStrategy  - Building LoadPlan...
+[main] DEBUG org.hibernate.loader.plan.exec.internal.LoadQueryJoinAndFetchProcessor  - processing queryspace <gen:0>
+[main] DEBUG org.hibernate.loader.plan.build.spi.LoadPlanTreePrinter  - LoadPlan(collection=university.domain.Department.lectors)
+    - Returns
+       - CollectionReturnImpl(collection=university.domain.Department.lectors, querySpaceUid=<gen:0>, path=[university.domain.Department.lectors])
+          - (collection element) CollectionFetchableElementEntityGraph(entity=university.domain.Lector, querySpaceUid=<gen:1>, path=[university.domain.Department.lectors].<elements>)
+             - CollectionAttributeFetchImpl(collection=university.domain.Lector.departments, querySpaceUid=<gen:2>, path=[university.domain.Department.lectors].<elements>.departments)
+                - (collection element) CollectionFetchableElementEntityGraph(entity=university.domain.Department, querySpaceUid=<gen:3>, path=[university.domain.Department.lectors].<elements>.departments.<elements>)
+    - QuerySpaces
+       - CollectionQuerySpaceImpl(uid=<gen:0>, collection=university.domain.Department.lectors)
+          - SQL table alias mapping - lectors0_
+          - alias suffix - 0_
+          - suffixed key columns - {departme1_0_0_}
+          - entity-element alias suffix - 1_
+          - 1_entity-element suffixed key columns - id1_2_1_
+          - JOIN (JoinDefinedByMetadata(elements)) : <gen:0> -> <gen:1>
+             - EntityQuerySpaceImpl(uid=<gen:1>, entity=university.domain.Lector)
+                - SQL table alias mapping - lector1_
+                - alias suffix - 1_
+                - suffixed key columns - {id1_2_1_}
+
+[main] DEBUG org.hibernate.loader.collection.plan.CollectionLoader  - Static select for collection university.domain.Department.lectors: select lectors0_.departments_id as departme1_0_0_, lectors0_.lectors_id as lectors_2_1_0_, lector1_.id as id1_2_1_, lector1_.degree as degree2_2_1_, lector1_.name as name3_2_1_, lector1_.salary as salary4_2_1_ from departments_lectors lectors0_ inner join lectors lector1_ on lectors0_.lectors_id=lector1_.id where lectors0_.departments_id=?
+[main] DEBUG org.hibernate.internal.SessionFactoryRegistry  - Initializing SessionFactoryRegistry : org.hibernate.internal.SessionFactoryRegistry@3add81c4
+[main] DEBUG org.hibernate.internal.SessionFactoryRegistry  - Registering SessionFactory: ac52c246-1c69-41f4-8570-7ae5e02f64f7 (<unnamed>)
+[main] DEBUG org.hibernate.internal.SessionFactoryRegistry  - Not binding SessionFactory to JNDI, no JNDI name configured
+[main] DEBUG org.hibernate.internal.SessionFactoryImpl  - Instantiated session factory
+[main] DEBUG org.hibernate.internal.NamedQueryRepository  - Checking 0 named HQL queries
+[main] DEBUG org.hibernate.internal.NamedQueryRepository  - Checking 0 named SQL queries
+[main] DEBUG org.hibernate.stat.internal.StatisticsInitiator  - Statistics initialized [enabled=false]
