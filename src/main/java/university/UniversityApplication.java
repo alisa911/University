@@ -40,10 +40,16 @@ public class UniversityApplication {
             } else if (text.equals("Show commands")) {
                 logger.info(getCommandsShortList());
             } else {
+
                 commandList.stream()
                         .filter(command -> command.isMatch(text))
-                        .findFirst()
-                        .ifPresent(command -> logger.info(command.getResult(text)));
+                        .findFirst().map(command -> {
+                    logger.info(command.getResult(text));
+                    return command;
+                }).orElseGet(() -> {
+                    logger.info("Wrong command!");
+                    return null;
+                });
             }
         }
     }
