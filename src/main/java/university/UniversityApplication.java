@@ -20,6 +20,7 @@ public class UniversityApplication {
     private static final List<Command> commandList = createCommandList();
 
     public static void main(String[] args) {
+        disableWarning();
         Session session = HibernateUtil.getSessionFactory().openSession();
         logger.info("Hello!");
         logger.info("You can use commands:");
@@ -45,5 +46,10 @@ public class UniversityApplication {
                         .ifPresent(command -> logger.info(command.getResult(text)));
             }
         }
+    }
+
+    private static void disableWarning() {
+        System.err.close();
+        System.setErr(System.out);
     }
 }
